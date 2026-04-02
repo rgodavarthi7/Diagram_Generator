@@ -1,0 +1,487 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "box1",
+      "type": "rectangle",
+      "x": 60,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "x": 80,
+      "y": 225,
+      "width": 120,
+      "height": 30,
+      "text": "Receive Order",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#000000",
+      "containerId": "box1"
+    },
+    {
+      "id": "box2",
+      "type": "rectangle",
+      "x": 320,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "x": 340,
+      "y": 225,
+      "width": 120,
+      "height": 30,
+      "text": "Check Inventory",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#000000",
+      "containerId": "box2"
+    },
+    {
+      "id": "box3",
+      "type": "rectangle",
+      "x": 580,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "id": "text3",
+      "type": "text",
+      "x": 600,
+      "y": 225,
+      "width": 120,
+      "height": 30,
+      "text": "Backorder",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#000000",
+      "containerId": "box3"
+    },
+    {
+      "id": "box4",
+      "type": "rectangle",
+      "x": 840,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "id": "text4",
+      "type": "text",
+      "x": 860,
+      "y": 225,
+      "width": 120,
+      "height": 30,
+      "text": "Reserve Items",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#000000",
+      "containerId": "box4"
+    },
+    {
+      "id": "box5",
+      "type": "rectangle",
+      "x": 1100,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "id": "text5",
+      "type": "text",
+      "x": 1120,
+      "y": 225,
+      "width": 120,
+      "height": 30,
+      "text": "Process Payment",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#000000",
+      "containerId": "box5"
+    },
+    {
+      "id": "box6",
+      "type": "rectangle",
+      "x": 1360,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "id": "text6",
+      "type": "text",
+      "x": 1380,
+      "y": 225,
+      "width": 120,
+      "height": 30,
+      "text": "Release Reserve",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#000000",
+      "containerId": "box6"
+    },
+    {
+      "id": "box7",
+      "type": "rectangle",
+      "x": 1620,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "id": "text7",
+      "type": "text",
+      "x": 1640,
+      "y": 225,
+      "width": 120,
+      "height": 30,
+      "text": "Pack Shipment",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#000000",
+      "containerId": "box7"
+    },
+    {
+      "id": "box8",
+      "type": "rectangle",
+      "x": 1880,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "id": "text8",
+      "type": "text",
+      "x": 1900,
+      "y": 225,
+      "width": 120,
+      "height": 30,
+      "text": "Ship Order",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#000000",
+      "containerId": "box8"
+    },
+    {
+      "id": "box9",
+      "type": "rectangle",
+      "x": 2140,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "id": "text9",
+      "type": "text",
+      "x": 2160,
+      "y": 225,
+      "width": 120,
+      "height": 30,
+      "text": "Send Tracking",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#000000",
+      "containerId": "box9"
+    },
+    {
+      "id": "arrow1",
+      "type": "arrow",
+      "x": 220,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box1",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box2",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrow2",
+      "type": "arrow",
+      "x": 480,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box2",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box3",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrow2b",
+      "type": "arrow",
+      "x": 480,
+      "y": 300,
+      "width": 100,
+      "height": 60,
+      "strokeColor": "#f08c00",
+      "roughness": 1,
+      "label": {
+        "text": "Out of Stock"
+      },
+      "startBinding": {
+        "elementId": "box2",
+        "focus": 0.5,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box3",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrow3",
+      "type": "arrow",
+      "x": 740,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box3",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box4",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrow4",
+      "type": "arrow",
+      "x": 1000,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box4",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box5",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrow5",
+      "type": "arrow",
+      "x": 1260,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box5",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box6",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrowlabel5",
+      "type": "text",
+      "x": 1265,
+      "y": 215,
+      "width": 100,
+      "height": 20,
+      "text": "Payment Fails",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#c2255c"
+    },
+    {
+      "id": "arrow6",
+      "type": "arrow",
+      "x": 1520,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box5",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box7",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrowlabel6",
+      "type": "text",
+      "x": 1527,
+      "y": 215,
+      "width": 90,
+      "height": 20,
+      "text": "Payment OK",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "arrow7",
+      "type": "arrow",
+      "x": 1780,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box7",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box8",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrow8",
+      "type": "arrow",
+      "x": 2040,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box8",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box9",
+        "focus": 0,
+        "gap": 1
+      }
+    }
+  ]
+}

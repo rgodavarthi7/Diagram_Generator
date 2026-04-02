@@ -1,0 +1,216 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "type": "rectangle",
+      "id": "box_ingest",
+      "x": 100,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "type": "text",
+      "id": "label_ingest",
+      "x": 130,
+      "y": 228,
+      "width": 100,
+      "height": 24,
+      "text": "Ingestion",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box_ingest",
+      "roughness": 1
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_1",
+      "x": 260,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box_ingest",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box_transform",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "box_transform",
+      "x": 360,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "type": "text",
+      "id": "label_transform",
+      "x": 390,
+      "y": 228,
+      "width": 100,
+      "height": 24,
+      "text": "Transform",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box_transform",
+      "roughness": 1
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_2",
+      "x": 520,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box_transform",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box_store",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "box_store",
+      "x": 620,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "type": "text",
+      "id": "label_store",
+      "x": 650,
+      "y": 228,
+      "width": 100,
+      "height": 24,
+      "text": "Store",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box_store",
+      "roughness": 1
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_3",
+      "x": 780,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box_store",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box_analyze",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "box_analyze",
+      "x": 880,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "type": "text",
+      "id": "label_analyze",
+      "x": 910,
+      "y": 228,
+      "width": 100,
+      "height": 24,
+      "text": "Analyze",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box_analyze",
+      "roughness": 1
+    }
+  ]
+}

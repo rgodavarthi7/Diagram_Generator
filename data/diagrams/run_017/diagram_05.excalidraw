@@ -1,0 +1,857 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "start",
+      "type": "ellipse",
+      "x": 320,
+      "y": 20,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fontFamily": 1
+    },
+    {
+      "id": "start-label",
+      "type": "text",
+      "x": 375,
+      "y": 38,
+      "text": "Start",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "start"
+    },
+    {
+      "id": "select-file",
+      "type": "rectangle",
+      "x": 320,
+      "y": 130,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "fontFamily": 1
+    },
+    {
+      "id": "select-file-label",
+      "type": "text",
+      "x": 360,
+      "y": 158,
+      "text": "Select File",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "select-file"
+    },
+    {
+      "id": "validate-format",
+      "type": "diamond",
+      "x": 300,
+      "y": 250,
+      "width": 200,
+      "height": 100,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fontFamily": 1
+    },
+    {
+      "id": "validate-format-label",
+      "type": "text",
+      "x": 340,
+      "y": 290,
+      "text": "Valid Format?",
+      "fontSize": 15,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "validate-format"
+    },
+    {
+      "id": "show-error",
+      "type": "rectangle",
+      "x": 560,
+      "y": 265,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "fontFamily": 1
+    },
+    {
+      "id": "show-error-label",
+      "type": "text",
+      "x": 590,
+      "y": 293,
+      "text": "Show Error",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "show-error"
+    },
+    {
+      "id": "end-format-error",
+      "type": "ellipse",
+      "x": 560,
+      "y": 390,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fontFamily": 1
+    },
+    {
+      "id": "end-format-error-label",
+      "type": "text",
+      "x": 615,
+      "y": 408,
+      "text": "End",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end-format-error"
+    },
+    {
+      "id": "check-size",
+      "type": "diamond",
+      "x": 300,
+      "y": 400,
+      "width": 200,
+      "height": 100,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fontFamily": 1
+    },
+    {
+      "id": "check-size-label",
+      "type": "text",
+      "x": 335,
+      "y": 440,
+      "text": "Size OK?",
+      "fontSize": 15,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "check-size"
+    },
+    {
+      "id": "reject-file",
+      "type": "rectangle",
+      "x": 560,
+      "y": 415,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "fontFamily": 1
+    },
+    {
+      "id": "reject-file-label",
+      "type": "text",
+      "x": 590,
+      "y": 443,
+      "text": "Reject File",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "reject-file"
+    },
+    {
+      "id": "end-size-error",
+      "type": "ellipse",
+      "x": 560,
+      "y": 540,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fontFamily": 1
+    },
+    {
+      "id": "end-size-error-label",
+      "type": "text",
+      "x": 615,
+      "y": 558,
+      "text": "End",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end-size-error"
+    },
+    {
+      "id": "scan-malware",
+      "type": "diamond",
+      "x": 300,
+      "y": 555,
+      "width": 200,
+      "height": 100,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fontFamily": 1
+    },
+    {
+      "id": "scan-malware-label",
+      "type": "text",
+      "x": 330,
+      "y": 595,
+      "text": "Malware Found?",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "scan-malware"
+    },
+    {
+      "id": "quarantine",
+      "type": "rectangle",
+      "x": 560,
+      "y": 565,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "fontFamily": 1
+    },
+    {
+      "id": "quarantine-label",
+      "type": "text",
+      "x": 590,
+      "y": 593,
+      "text": "Quarantine",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "quarantine"
+    },
+    {
+      "id": "end-malware",
+      "type": "ellipse",
+      "x": 560,
+      "y": 690,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fontFamily": 1
+    },
+    {
+      "id": "end-malware-label",
+      "type": "text",
+      "x": 615,
+      "y": 708,
+      "text": "End",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end-malware"
+    },
+    {
+      "id": "upload-storage",
+      "type": "rectangle",
+      "x": 320,
+      "y": 710,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "fontFamily": 1
+    },
+    {
+      "id": "upload-storage-label",
+      "type": "text",
+      "x": 340,
+      "y": 738,
+      "text": "Upload to Storage",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "upload-storage"
+    },
+    {
+      "id": "return-url",
+      "type": "rectangle",
+      "x": 320,
+      "y": 835,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "fontFamily": 1
+    },
+    {
+      "id": "return-url-label",
+      "type": "text",
+      "x": 355,
+      "y": 863,
+      "text": "Return URL",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "return-url"
+    },
+    {
+      "id": "end-success",
+      "type": "ellipse",
+      "x": 320,
+      "y": 960,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fontFamily": 1
+    },
+    {
+      "id": "end-success-label",
+      "type": "text",
+      "x": 375,
+      "y": 978,
+      "text": "End",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end-success"
+    },
+    {
+      "id": "arrow-start-select",
+      "type": "arrow",
+      "x": 400,
+      "y": 80,
+      "width": 0,
+      "height": 50,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "start",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "select-file",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ]
+    },
+    {
+      "id": "arrow-select-validate",
+      "type": "arrow",
+      "x": 400,
+      "y": 200,
+      "width": 0,
+      "height": 50,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "select-file",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "validate-format",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ]
+    },
+    {
+      "id": "arrow-validate-no",
+      "type": "arrow",
+      "x": 500,
+      "y": 300,
+      "width": 60,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "validate-format",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "show-error",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          60,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label-validate-no",
+      "type": "text",
+      "x": 512,
+      "y": 280,
+      "text": "No",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "arrow-showerror-end",
+      "type": "arrow",
+      "x": 640,
+      "y": 335,
+      "width": 0,
+      "height": 55,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "show-error",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end-format-error",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          55
+        ]
+      ]
+    },
+    {
+      "id": "arrow-validate-yes",
+      "type": "arrow",
+      "x": 400,
+      "y": 350,
+      "width": 0,
+      "height": 50,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "validate-format",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "check-size",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ]
+    },
+    {
+      "id": "label-validate-yes",
+      "type": "text",
+      "x": 408,
+      "y": 362,
+      "text": "Yes",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "arrow-size-no",
+      "type": "arrow",
+      "x": 500,
+      "y": 450,
+      "width": 60,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "check-size",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "reject-file",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          60,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label-size-no",
+      "type": "text",
+      "x": 512,
+      "y": 430,
+      "text": "No",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "arrow-reject-end",
+      "type": "arrow",
+      "x": 640,
+      "y": 485,
+      "width": 0,
+      "height": 55,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "reject-file",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end-size-error",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          55
+        ]
+      ]
+    },
+    {
+      "id": "arrow-size-yes",
+      "type": "arrow",
+      "x": 400,
+      "y": 500,
+      "width": 0,
+      "height": 55,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "check-size",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "scan-malware",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          55
+        ]
+      ]
+    },
+    {
+      "id": "label-size-yes",
+      "type": "text",
+      "x": 408,
+      "y": 514,
+      "text": "Yes",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "arrow-malware-yes",
+      "type": "arrow",
+      "x": 500,
+      "y": 600,
+      "width": 60,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "scan-malware",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "quarantine",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          60,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label-malware-yes",
+      "type": "text",
+      "x": 512,
+      "y": 580,
+      "text": "Yes",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "arrow-quarantine-end",
+      "type": "arrow",
+      "x": 640,
+      "y": 635,
+      "width": 0,
+      "height": 55,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "quarantine",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end-malware",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          55
+        ]
+      ]
+    },
+    {
+      "id": "arrow-malware-no",
+      "type": "arrow",
+      "x": 400,
+      "y": 655,
+      "width": 0,
+      "height": 55,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "scan-malware",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "upload-storage",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          55
+        ]
+      ]
+    },
+    {
+      "id": "label-malware-no",
+      "type": "text",
+      "x": 408,
+      "y": 668,
+      "text": "No",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "arrow-upload-return",
+      "type": "arrow",
+      "x": 400,
+      "y": 780,
+      "width": 0,
+      "height": 55,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "upload-storage",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "return-url",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          55
+        ]
+      ]
+    },
+    {
+      "id": "arrow-return-end",
+      "type": "arrow",
+      "x": 400,
+      "y": 905,
+      "width": 0,
+      "height": 55,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "return-url",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end-success",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          55
+        ]
+      ]
+    }
+  ]
+}

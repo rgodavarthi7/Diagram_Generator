@@ -1,0 +1,362 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "rect1",
+      "type": "rectangle",
+      "x": 60,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "fillStyle": "solid"
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "x": 100,
+      "y": 228,
+      "width": 80,
+      "height": 24,
+      "text": "Code Commit",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect1",
+      "roughness": 1
+    },
+    {
+      "id": "rect2",
+      "type": "rectangle",
+      "x": 320,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "fillStyle": "solid"
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "x": 360,
+      "y": 228,
+      "width": 80,
+      "height": 24,
+      "text": "Build",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect2",
+      "roughness": 1
+    },
+    {
+      "id": "rect3",
+      "type": "rectangle",
+      "x": 580,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "fillStyle": "solid"
+    },
+    {
+      "id": "text3",
+      "type": "text",
+      "x": 620,
+      "y": 228,
+      "width": 80,
+      "height": 24,
+      "text": "Test",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect3",
+      "roughness": 1
+    },
+    {
+      "id": "rect4",
+      "type": "rectangle",
+      "x": 840,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "fillStyle": "solid"
+    },
+    {
+      "id": "text4",
+      "type": "text",
+      "x": 880,
+      "y": 228,
+      "width": 80,
+      "height": 24,
+      "text": "Deploy",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect4",
+      "roughness": 1
+    },
+    {
+      "id": "arrow1",
+      "type": "arrow",
+      "x": 220,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#6741d9",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "rect1",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect2",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "arrow2",
+      "type": "arrow",
+      "x": 480,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "rect2",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect3",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "arrow3",
+      "type": "arrow",
+      "x": 740,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "rect3",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect4",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "titleText",
+      "type": "text",
+      "x": 300,
+      "y": 120,
+      "width": 460,
+      "height": 40,
+      "text": "CI/CD Pipeline",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "roughness": 1,
+      "strokeColor": "#343a40"
+    },
+    {
+      "id": "subRect1",
+      "type": "rectangle",
+      "x": 80,
+      "y": 320,
+      "width": 120,
+      "height": 40,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 1,
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "fillStyle": "solid"
+    },
+    {
+      "id": "subText1",
+      "type": "text",
+      "x": 90,
+      "y": 330,
+      "width": 100,
+      "height": 20,
+      "text": "Push Code",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "subRect1",
+      "roughness": 1
+    },
+    {
+      "id": "subRect2",
+      "type": "rectangle",
+      "x": 340,
+      "y": 320,
+      "width": 120,
+      "height": 40,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 1,
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "fillStyle": "solid"
+    },
+    {
+      "id": "subText2",
+      "type": "text",
+      "x": 350,
+      "y": 330,
+      "width": 100,
+      "height": 20,
+      "text": "Compile",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "subRect2",
+      "roughness": 1
+    },
+    {
+      "id": "subRect3",
+      "type": "rectangle",
+      "x": 600,
+      "y": 320,
+      "width": 120,
+      "height": 40,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 1,
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "fillStyle": "solid"
+    },
+    {
+      "id": "subText3",
+      "type": "text",
+      "x": 610,
+      "y": 330,
+      "width": 100,
+      "height": 20,
+      "text": "Unit & Integration",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "subRect3",
+      "roughness": 1
+    },
+    {
+      "id": "subRect4",
+      "type": "rectangle",
+      "x": 860,
+      "y": 320,
+      "width": 120,
+      "height": 40,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 1,
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "fillStyle": "solid"
+    },
+    {
+      "id": "subText4",
+      "type": "text",
+      "x": 870,
+      "y": 330,
+      "width": 100,
+      "height": 20,
+      "text": "Production",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "subRect4",
+      "roughness": 1
+    }
+  ]
+}

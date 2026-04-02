@@ -1,0 +1,1114 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "start",
+      "type": "rectangle",
+      "x": 360,
+      "y": 40,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "start-label",
+      "type": "text",
+      "x": 392,
+      "y": 58,
+      "width": 96,
+      "height": 25,
+      "text": "User Visits",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "start",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "submit",
+      "type": "rectangle",
+      "x": 350,
+      "y": 160,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "submit-label",
+      "type": "text",
+      "x": 370,
+      "y": 183,
+      "width": 140,
+      "height": 25,
+      "text": "Submit Form",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "submit",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "validate",
+      "type": "rectangle",
+      "x": 340,
+      "y": 290,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "validate-label",
+      "type": "text",
+      "x": 355,
+      "y": 318,
+      "width": 170,
+      "height": 25,
+      "text": "Valid Email Format?",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "validate",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "email-error",
+      "type": "rectangle",
+      "x": 80,
+      "y": 290,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "email-error-label",
+      "type": "text",
+      "x": 95,
+      "y": 313,
+      "width": 150,
+      "height": 25,
+      "text": "Show Email Error",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "email-error",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "check-exists",
+      "type": "rectangle",
+      "x": 340,
+      "y": 430,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "check-exists-label",
+      "type": "text",
+      "x": 355,
+      "y": 458,
+      "width": 170,
+      "height": 25,
+      "text": "User Already Exists?",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "check-exists",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "prompt-login",
+      "type": "rectangle",
+      "x": 620,
+      "y": 430,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "prompt-login-label",
+      "type": "text",
+      "x": 635,
+      "y": 453,
+      "width": 150,
+      "height": 25,
+      "text": "Prompt Login",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "prompt-login",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "hash-password",
+      "type": "rectangle",
+      "x": 350,
+      "y": 570,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "hash-password-label",
+      "type": "text",
+      "x": 368,
+      "y": 593,
+      "width": 144,
+      "height": 25,
+      "text": "Hash Password",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "hash-password",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "create-account",
+      "type": "rectangle",
+      "x": 350,
+      "y": 700,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "create-account-label",
+      "type": "text",
+      "x": 366,
+      "y": 723,
+      "width": 148,
+      "height": 25,
+      "text": "Create Account",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "create-account",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "send-email",
+      "type": "rectangle",
+      "x": 350,
+      "y": 830,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "send-email-label",
+      "type": "text",
+      "x": 358,
+      "y": 853,
+      "width": 164,
+      "height": 25,
+      "text": "Send Verify Email",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "send-email",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "confirm-check",
+      "type": "rectangle",
+      "x": 340,
+      "y": 960,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "confirm-check-label",
+      "type": "text",
+      "x": 352,
+      "y": 988,
+      "width": 176,
+      "height": 25,
+      "text": "User Confirms Link?",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "confirm-check",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "no-confirm",
+      "type": "rectangle",
+      "x": 80,
+      "y": 960,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "no-confirm-label",
+      "type": "text",
+      "x": 95,
+      "y": 983,
+      "width": 150,
+      "height": 25,
+      "text": "Pending Inactive",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "no-confirm",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "activate",
+      "type": "rectangle",
+      "x": 350,
+      "y": 1100,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "activate-label",
+      "type": "text",
+      "x": 363,
+      "y": 1123,
+      "width": 154,
+      "height": 25,
+      "text": "Activate Account",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "activate",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "end-success",
+      "type": "rectangle",
+      "x": 360,
+      "y": 1230,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "end-success-label",
+      "type": "text",
+      "x": 378,
+      "y": 1248,
+      "width": 124,
+      "height": 25,
+      "text": "Registration Done",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end-success",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "end-error-email",
+      "type": "rectangle",
+      "x": 60,
+      "y": 430,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "end-error-email-label",
+      "type": "text",
+      "x": 78,
+      "y": 448,
+      "width": 124,
+      "height": 25,
+      "text": "End Rejected",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end-error-email",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "end-login",
+      "type": "rectangle",
+      "x": 620,
+      "y": 570,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "end-login-label",
+      "type": "text",
+      "x": 638,
+      "y": 588,
+      "width": 124,
+      "height": 25,
+      "text": "End Go Login",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end-login",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "end-no-confirm",
+      "type": "rectangle",
+      "x": 60,
+      "y": 1100,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "angle": 0,
+      "strokeWidth": 2,
+      "opacity": 100
+    },
+    {
+      "id": "end-no-confirm-label",
+      "type": "text",
+      "x": 78,
+      "y": 1118,
+      "width": 124,
+      "height": 25,
+      "text": "End Unverified",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end-no-confirm",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "arr-start-submit",
+      "type": "arrow",
+      "x": 440,
+      "y": 100,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "start",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "submit",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "arr-submit-validate",
+      "type": "arrow",
+      "x": 440,
+      "y": 230,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "submit",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "validate",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "arr-validate-error",
+      "type": "arrow",
+      "x": 340,
+      "y": 325,
+      "width": -80,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "validate",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "email-error",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "lbl-validate-no",
+      "type": "text",
+      "x": 248,
+      "y": 308,
+      "width": 30,
+      "height": 20,
+      "text": "No",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "arr-error-end",
+      "type": "arrow",
+      "x": 170,
+      "y": 360,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "email-error",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "end-error-email",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "arr-validate-check",
+      "type": "arrow",
+      "x": 440,
+      "y": 370,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "validate",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "check-exists",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "lbl-validate-yes",
+      "type": "text",
+      "x": 448,
+      "y": 392,
+      "width": 30,
+      "height": 20,
+      "text": "Yes",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "arr-check-login",
+      "type": "arrow",
+      "x": 540,
+      "y": 468,
+      "width": 80,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "check-exists",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "prompt-login",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "lbl-check-yes",
+      "type": "text",
+      "x": 558,
+      "y": 450,
+      "width": 30,
+      "height": 20,
+      "text": "Yes",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "arr-login-end",
+      "type": "arrow",
+      "x": 710,
+      "y": 500,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "prompt-login",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "end-login",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "arr-check-hash",
+      "type": "arrow",
+      "x": 440,
+      "y": 510,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "check-exists",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "hash-password",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "lbl-check-no",
+      "type": "text",
+      "x": 448,
+      "y": 532,
+      "width": 30,
+      "height": 20,
+      "text": "No",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "arr-hash-create",
+      "type": "arrow",
+      "x": 440,
+      "y": 640,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "hash-password",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "create-account",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "arr-create-send",
+      "type": "arrow",
+      "x": 440,
+      "y": 770,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "create-account",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "send-email",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "arr-send-confirm",
+      "type": "arrow",
+      "x": 440,
+      "y": 900,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "send-email",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "confirm-check",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "arr-confirm-no",
+      "type": "arrow",
+      "x": 340,
+      "y": 993,
+      "width": -80,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "confirm-check",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "no-confirm",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "lbl-confirm-no",
+      "type": "text",
+      "x": 248,
+      "y": 976,
+      "width": 30,
+      "height": 20,
+      "text": "No",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "arr-noconfirm-end",
+      "type": "arrow",
+      "x": 170,
+      "y": 1030,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "no-confirm",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "end-no-confirm",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "arr-confirm-yes",
+      "type": "arrow",
+      "x": 440,
+      "y": 1040,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "confirm-check",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "activate",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "lbl-confirm-yes",
+      "type": "text",
+      "x": 448,
+      "y": 1062,
+      "width": 30,
+      "height": 20,
+      "text": "Yes",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "angle": 0,
+      "opacity": 100
+    },
+    {
+      "id": "arr-activate-end",
+      "type": "arrow",
+      "x": 440,
+      "y": 1170,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "activate",
+        "gap": 2,
+        "focus": 0
+      },
+      "endBinding": {
+        "elementId": "end-success",
+        "gap": 2,
+        "focus": 0
+      },
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    }
+  ]
+}

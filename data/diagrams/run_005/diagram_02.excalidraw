@@ -1,0 +1,182 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "type": "rectangle",
+      "id": "box_commit",
+      "x": 100,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "type": "text",
+      "id": "label_commit",
+      "x": 135,
+      "y": 228,
+      "width": 90,
+      "height": 24,
+      "text": "Code Commit",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box_commit"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_commit_build",
+      "x": 260,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box_commit",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box_build",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box_build",
+      "x": 360,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "type": "text",
+      "id": "label_build",
+      "x": 395,
+      "y": 228,
+      "width": 90,
+      "height": 24,
+      "text": "Build",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box_build"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_build_test",
+      "x": 520,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box_build",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box_test",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box_test",
+      "x": 620,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "type": "text",
+      "id": "label_test",
+      "x": 655,
+      "y": 228,
+      "width": 90,
+      "height": 24,
+      "text": "Test",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box_test"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_test_deploy",
+      "x": 780,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "box_test",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "box_deploy",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "box_deploy",
+      "x": 880,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1
+    },
+    {
+      "type": "text",
+      "id": "label_deploy",
+      "x": 915,
+      "y": 228,
+      "width": 90,
+      "height": 24,
+      "text": "Deploy",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box_deploy"
+    }
+  ]
+}

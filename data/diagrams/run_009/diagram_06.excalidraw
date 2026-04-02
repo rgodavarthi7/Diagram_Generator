@@ -1,0 +1,205 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "producer-rect",
+      "type": "rectangle",
+      "x": 80,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "producer-text",
+      "type": "text",
+      "x": 80,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "text": "Producer",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "producer-rect",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "queue-rect",
+      "type": "rectangle",
+      "x": 340,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "queue-text",
+      "type": "text",
+      "x": 340,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "text": "Message Queue",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "queue-rect",
+      "strokeColor": "#6741d9"
+    },
+    {
+      "id": "consumer-rect",
+      "type": "rectangle",
+      "x": 600,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "consumer-text",
+      "type": "text",
+      "x": 600,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "text": "Consumer",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "consumer-rect",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "arrow-prod-queue",
+      "type": "arrow",
+      "x": 242,
+      "y": 240,
+      "width": 96,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "strokeWidth": 2,
+      "startBinding": {
+        "elementId": "producer-rect",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "queue-rect",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "arrow-queue-cons",
+      "type": "arrow",
+      "x": 502,
+      "y": 240,
+      "width": 96,
+      "height": 0,
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "strokeWidth": 2,
+      "startBinding": {
+        "elementId": "queue-rect",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "consumer-rect",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "title-text",
+      "type": "text",
+      "x": 180,
+      "y": 120,
+      "width": 440,
+      "height": 40,
+      "text": "Event-Driven Architecture",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "event-label",
+      "type": "text",
+      "x": 242,
+      "y": 285,
+      "width": 96,
+      "height": 24,
+      "text": "publishes event",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "consume-label",
+      "type": "text",
+      "x": 502,
+      "y": 285,
+      "width": 96,
+      "height": 24,
+      "text": "consumes event",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#6741d9"
+    }
+  ]
+}

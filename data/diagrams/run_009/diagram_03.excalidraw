@@ -1,0 +1,347 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "rect1",
+      "type": "rectangle",
+      "x": 80,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "strokeWidth": 2
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "x": 80,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "text": "User Service",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect1",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "rect2",
+      "type": "rectangle",
+      "x": 400,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "strokeWidth": 2
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "x": 400,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "text": "API Gateway",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect2",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "rect3",
+      "type": "rectangle",
+      "x": 720,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "strokeWidth": 2
+    },
+    {
+      "id": "text3",
+      "type": "text",
+      "x": 720,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "text": "Order Service",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect3",
+      "strokeColor": "#6741d9"
+    },
+    {
+      "id": "rect4",
+      "type": "rectangle",
+      "x": 1040,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "strokeWidth": 2
+    },
+    {
+      "id": "text4",
+      "type": "text",
+      "x": 1040,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "text": "Message Queue",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect4",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "rect5",
+      "type": "rectangle",
+      "x": 1360,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "strokeWidth": 2
+    },
+    {
+      "id": "text5",
+      "type": "text",
+      "x": 1360,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "text": "Payment Service",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect5",
+      "strokeColor": "#c2255c"
+    },
+    {
+      "id": "rect6",
+      "type": "rectangle",
+      "x": 1680,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "roughness": 1,
+      "strokeWidth": 2
+    },
+    {
+      "id": "text6",
+      "type": "text",
+      "x": 1680,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "text": "Database",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect6",
+      "strokeColor": "#f08c00"
+    },
+    {
+      "id": "arrow1",
+      "type": "arrow",
+      "x": 240,
+      "y": 240,
+      "width": 160,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "rect1",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect2",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          160,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "arrow2",
+      "type": "arrow",
+      "x": 560,
+      "y": 240,
+      "width": 160,
+      "height": 0,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "rect2",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect3",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          160,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "arrow3",
+      "type": "arrow",
+      "x": 880,
+      "y": 240,
+      "width": 160,
+      "height": 0,
+      "strokeColor": "#6741d9",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "rect3",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect4",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          160,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "arrow4",
+      "type": "arrow",
+      "x": 1200,
+      "y": 240,
+      "width": 160,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "rect4",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect5",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          160,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "arrow5",
+      "type": "arrow",
+      "x": 1520,
+      "y": 240,
+      "width": 160,
+      "height": 0,
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "rect5",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect6",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          160,
+          0
+        ]
+      ]
+    }
+  ]
+}

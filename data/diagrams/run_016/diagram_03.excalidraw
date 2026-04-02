@@ -1,0 +1,638 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "start",
+      "type": "rectangle",
+      "x": 360,
+      "y": 40,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "start-label",
+      "type": "text",
+      "x": 390,
+      "y": 58,
+      "width": 100,
+      "height": 25,
+      "text": "Receive Order",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "start"
+    },
+    {
+      "id": "arrow-start-validate",
+      "type": "arrow",
+      "x": 440,
+      "y": 100,
+      "width": 0,
+      "height": 80,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "start",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "validate-card",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "validate-card",
+      "type": "rectangle",
+      "x": 340,
+      "y": 180,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "validate-card-label",
+      "type": "text",
+      "x": 360,
+      "y": 208,
+      "width": 160,
+      "height": 25,
+      "text": "Validate Card",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "validate-card"
+    },
+    {
+      "id": "arrow-validate-yes",
+      "type": "arrow",
+      "x": 440,
+      "y": 260,
+      "width": 0,
+      "height": 80,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "validate-card",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "fraud-check",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "label-validate-yes",
+      "type": "text",
+      "x": 450,
+      "y": 288,
+      "width": 40,
+      "height": 20,
+      "text": "Yes",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "arrow-validate-no",
+      "type": "arrow",
+      "x": 340,
+      "y": 220,
+      "width": 180,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "validate-card",
+        "focus": -0.5,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "notify-customer",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -180,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label-validate-no",
+      "type": "text",
+      "x": 218,
+      "y": 200,
+      "width": 40,
+      "height": 20,
+      "text": "No",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "notify-customer",
+      "type": "rectangle",
+      "x": 60,
+      "y": 180,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "notify-customer-label",
+      "type": "text",
+      "x": 75,
+      "y": 203,
+      "width": 150,
+      "height": 25,
+      "text": "Notify Customer",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "notify-customer"
+    },
+    {
+      "id": "arrow-notify-end",
+      "type": "arrow",
+      "x": 150,
+      "y": 250,
+      "width": 0,
+      "height": 660,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "notify-customer",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "end",
+        "focus": -0.5,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          660
+        ]
+      ]
+    },
+    {
+      "id": "fraud-check",
+      "type": "rectangle",
+      "x": 340,
+      "y": 340,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "fraud-check-label",
+      "type": "text",
+      "x": 355,
+      "y": 368,
+      "width": 170,
+      "height": 25,
+      "text": "Check Fraud Score",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "fraud-check"
+    },
+    {
+      "id": "arrow-fraud-yes",
+      "type": "arrow",
+      "x": 440,
+      "y": 420,
+      "width": 0,
+      "height": 80,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "fraud-check",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "charge-card",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "label-fraud-yes",
+      "type": "text",
+      "x": 450,
+      "y": 448,
+      "width": 40,
+      "height": 20,
+      "text": "Yes",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "arrow-fraud-no",
+      "type": "arrow",
+      "x": 540,
+      "y": 380,
+      "width": 180,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "fraud-check",
+        "focus": 0.5,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "flag-review",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          180,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label-fraud-no",
+      "type": "text",
+      "x": 596,
+      "y": 358,
+      "width": 80,
+      "height": 20,
+      "text": "Suspicious",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "flag-review",
+      "type": "rectangle",
+      "x": 620,
+      "y": 340,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "flag-review-label",
+      "type": "text",
+      "x": 635,
+      "y": 363,
+      "width": 150,
+      "height": 25,
+      "text": "Flag for Review",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "flag-review"
+    },
+    {
+      "id": "arrow-flag-end",
+      "type": "arrow",
+      "x": 710,
+      "y": 410,
+      "width": 0,
+      "height": 500,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "flag-review",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "end",
+        "focus": 0.5,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          500
+        ]
+      ]
+    },
+    {
+      "id": "charge-card",
+      "type": "rectangle",
+      "x": 350,
+      "y": 500,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "charge-card-label",
+      "type": "text",
+      "x": 370,
+      "y": 523,
+      "width": 140,
+      "height": 25,
+      "text": "Charge Card",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "charge-card"
+    },
+    {
+      "id": "arrow-charge-confirm",
+      "type": "arrow",
+      "x": 440,
+      "y": 570,
+      "width": 0,
+      "height": 80,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "charge-card",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "send-confirm",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "send-confirm",
+      "type": "rectangle",
+      "x": 350,
+      "y": 650,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "send-confirm-label",
+      "type": "text",
+      "x": 365,
+      "y": 673,
+      "width": 150,
+      "height": 25,
+      "text": "Send Confirmation",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "send-confirm"
+    },
+    {
+      "id": "arrow-confirm-fulfill",
+      "type": "arrow",
+      "x": 440,
+      "y": 720,
+      "width": 0,
+      "height": 80,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "send-confirm",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "fulfill-order",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "fulfill-order",
+      "type": "rectangle",
+      "x": 350,
+      "y": 800,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "fulfill-order-label",
+      "type": "text",
+      "x": 368,
+      "y": 823,
+      "width": 145,
+      "height": 25,
+      "text": "Fulfill Order",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "fulfill-order"
+    },
+    {
+      "id": "arrow-fulfill-end",
+      "type": "arrow",
+      "x": 440,
+      "y": 870,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "fulfill-order",
+        "focus": 0,
+        "gap": 2
+      },
+      "endBinding": {
+        "elementId": "end",
+        "focus": 0,
+        "gap": 2
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ]
+    },
+    {
+      "id": "end",
+      "type": "rectangle",
+      "x": 360,
+      "y": 940,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "end-label",
+      "type": "text",
+      "x": 395,
+      "y": 958,
+      "width": 90,
+      "height": 25,
+      "text": "End",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end"
+    }
+  ]
+}

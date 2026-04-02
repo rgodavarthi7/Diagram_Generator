@@ -1,0 +1,119 @@
+You are an expert at creating Excalidraw diagrams. Generate a valid Excalidraw JSON file for the topic described below.
+
+STRICT REQUIREMENTS:
+- Output ONLY valid JSON (no markdown fences, no explanation)
+- Use the Excalidraw format: {"type": "excalidraw", "version": 2, "elements": [...]}
+
+═══════════════════════════════════════════
+FLOWCHART SYMBOL RULES — CRITICAL
+═══════════════════════════════════════════
+Use CORRECT flowchart symbols for each node type:
+
+1. START / END (Terminal) nodes:
+   - Use type: "ellipse" (oval/rounded shape)
+   - backgroundColor: "#a5d8ff" (blue) for Start
+   - backgroundColor: "#fcc2d7" (pink) for End
+   - strokeColor: "#1971c2" for Start ellipse; "#c2255c" for End ellipse
+   - Label: "Start" or "End"
+
+2. PROCESS / ACTION nodes:
+   - Use type: "rectangle" with roundness: {"type": 3}
+   - backgroundColor: "#b2f2bb" (green) or "#d0bfff" (purple)
+   - strokeColor matched to background (see color rules below)
+
+3. DECISION nodes — MUST USE DIAMOND SHAPE:
+   - Use type: "diamond" (NOT rectangle, NOT ellipse)
+   - backgroundColor: "#fff3bf" (yellow)
+   - strokeColor: "#f08c00"
+   - Label must be a YES/NO question (e.g., "Valid?", "Approved?", "Error?")
+   - Every diamond MUST have exactly TWO outgoing arrows
+   - One arrow labeled "Yes", one arrow labeled "No"
+   - YES branch leads to the success/continue path
+   - NO branch leads to error/retry/alternate path
+
+═══════════════════════════════════════════
+BRANCH COMPLETENESS — MANDATORY
+═══════════════════════════════════════════
+- Every decision diamond MUST have BOTH a "Yes" branch AND a "No" branch
+- Every branch MUST connect to a valid node (no dangling arrows)
+- Every path through the diagram MUST eventually reach an End node
+- If a "No" branch loops back, the arrow must explicitly connect back to a prior node
+- Do NOT leave any branch unconnected or truncated
+- Before finalizing: trace every possible path — each must terminate at End
+
+═══════════════════════════════════════════
+COLOR SEMANTICS — FOLLOW EXACTLY
+═══════════════════════════════════════════
+Use color to convey meaning consistently:
+- BLUE (#a5d8ff / stroke #1971c2): Start terminal nodes ONLY
+- PINK (#fcc2d7 / stroke #c2255c): End terminal nodes ONLY
+- YELLOW (#fff3bf / stroke #f08c00): Decision/diamond nodes ONLY
+- GREEN (#b2f2bb / stroke #2f9e44): Primary process/action nodes
+- PURPLE (#d0bfff / stroke #6741d9): Secondary process/action nodes (alternate steps)
+- ORANGE (#ffd8a8 / stroke #e8590c): Special process nodes (input, output, I/O steps)
+
+NEVER mix these roles — decisions are always yellow diamonds, never rectangles; terminals are always ellipses, never rectangles.
+
+═══════════════════════════════════════════
+CRITICAL COLOR RULES
+═══════════════════════════════════════════
+- Every shape element MUST include "backgroundColor" as one of these SIX exact hex strings:
+  "#a5d8ff", "#d0bfff", "#b2f2bb", "#ffd8a8", "#fcc2d7", "#fff3bf"
+- NEVER use "#ffffff", "transparent", null, or any other color for backgroundColor
+- NEVER omit "backgroundColor" from any shape element
+- strokeColor MUST match the paired dark version:
+  "#a5d8ff" → "#1971c2" | "#d0bfff" → "#6741d9" | "#b2f2bb" → "#2f9e44"
+  "#ffd8a8" → "#e8590c" | "#fcc2d7" → "#c2255c" | "#fff3bf" → "#f08c00"
+- Set "fillStyle": "solid" on every shape
+
+═══════════════════════════════════════════
+LAYOUT RULES
+═══════════════════════════════════════════
+- Arrange nodes in a clear TOP-TO-BOTTOM flow (vertical layout)
+- Start node at top; End node(s) at bottom
+- Decision diamonds branch LEFT (No) and RIGHT (Yes) or UP (loop back) and DOWN (continue)
+- Keep x-coordinates clustered: main flow centered around x=400
+- Space nodes ~120px apart vertically; branch offsets ~250px horizontally
+- Avoid overlapping shapes — ensure all bounding boxes are non-overlapping
+- Keep the total diagram compact: max ~800px wide, nodes sized ~160x80 for rectangles/ellipses, ~160x100 for diamonds
+
+═══════════════════════════════════════════
+ARROW RULES
+═══════════════════════════════════════════
+- Use type: "arrow" with startBinding and endBinding referencing element IDs
+- Decision arrows MUST have a "label" property: set via a text element with containerId pointing to the arrow id, OR use the arrow's own label field
+- YES/NO labels: add a text element near each decision arrow with the label "Yes" or "No"
+- Arrow strokeColor: use "#1971c2" for main flow, "#2f9e44" for Yes branches, "#e8590c" for No/error branches
+- All arrows must have valid startBinding and endBinding (no floating arrows)
+
+═══════════════════════════════════════════
+ELEMENT RULES
+═══════════════════════════════════════════
+- fontFamily: 1 (Virgil), roughness: 1, strokeWidth: 2
+- Text labels: SHORT and clear (one to four words)
+- Text elements inside shapes: set containerId to parent shape id
+- Ellipses for terminals, diamonds for decisions, rectangles for processes
+
+═══════════════════════════════════════════
+ABSOLUTE NO-NUMBERS RULE — CRITICAL
+═══════════════════════════════════════════
+- ZERO digits anywhere in ANY text string
+- Do NOT use: "1","2","3","4","5","6","7","8","9","0" in any text value
+- No ordinals, no step numbers, no version numbers, no counts in text
+- Text labels must be purely alphabetic words only
+- Scan every text string character by character before finalizing
+
+VALID LABELS: "Start", "End", "Valid?", "Process Order", "Approved?", "Send Email", "Log Error", "Yes", "No"
+INVALID LABELS: "Step 1", "Phase 2", "Node 3", "API v2" — all forbidden
+
+═══════════════════════════════════════════
+VERIFICATION CHECKLIST — confirm before output
+═══════════════════════════════════════════
+1. Every decision node is type "diamond" with yellow background (#fff3bf)
+2. Every diamond has exactly two outgoing arrows labeled "Yes" and "No"
+3. Every path traces to an End ellipse — no dangling branches
+4. Start is blue ellipse; End is pink ellipse
+5. Every shape has backgroundColor set to one of the six valid hex values
+6. No shape uses "#ffffff", "transparent", or null for backgroundColor
+7. strokeColor matches the paired dark color for every shape
+8. Zero digits appear in any text string

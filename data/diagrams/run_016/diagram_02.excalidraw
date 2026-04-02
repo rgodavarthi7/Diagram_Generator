@@ -1,0 +1,982 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "start",
+      "type": "rectangle",
+      "x": 360,
+      "y": 40,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "start-label",
+      "type": "text",
+      "x": 395,
+      "y": 58,
+      "width": 90,
+      "height": 24,
+      "text": "User Login",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "start"
+    },
+    {
+      "id": "enter-creds",
+      "type": "rectangle",
+      "x": 350,
+      "y": 160,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "enter-creds-label",
+      "type": "text",
+      "x": 360,
+      "y": 183,
+      "width": 160,
+      "height": 24,
+      "text": "Enter Credentials",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "enter-creds"
+    },
+    {
+      "id": "validate",
+      "type": "rectangle",
+      "x": 350,
+      "y": 290,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "validate-label",
+      "type": "text",
+      "x": 360,
+      "y": 313,
+      "width": 160,
+      "height": 24,
+      "text": "Validate Credentials",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "validate"
+    },
+    {
+      "id": "valid-decision",
+      "type": "rectangle",
+      "x": 340,
+      "y": 420,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "valid-decision-label",
+      "type": "text",
+      "x": 350,
+      "y": 448,
+      "width": 180,
+      "height": 24,
+      "text": "Credentials Valid?",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "valid-decision"
+    },
+    {
+      "id": "error-node",
+      "type": "rectangle",
+      "x": 90,
+      "y": 420,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "error-label",
+      "type": "text",
+      "x": 100,
+      "y": 443,
+      "width": 160,
+      "height": 24,
+      "text": "Show Error",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "error-node"
+    },
+    {
+      "id": "mfa-decision",
+      "type": "rectangle",
+      "x": 340,
+      "y": 560,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "mfa-decision-label",
+      "type": "text",
+      "x": 350,
+      "y": 588,
+      "width": 180,
+      "height": 24,
+      "text": "MFA Enabled?",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "mfa-decision"
+    },
+    {
+      "id": "send-code",
+      "type": "rectangle",
+      "x": 600,
+      "y": 560,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "send-code-label",
+      "type": "text",
+      "x": 610,
+      "y": 583,
+      "width": 160,
+      "height": 24,
+      "text": "Send MFA Code",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "send-code"
+    },
+    {
+      "id": "verify-code",
+      "type": "rectangle",
+      "x": 600,
+      "y": 690,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "verify-code-label",
+      "type": "text",
+      "x": 610,
+      "y": 713,
+      "width": 160,
+      "height": 24,
+      "text": "Verify MFA Code",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "verify-code"
+    },
+    {
+      "id": "mfa-valid-decision",
+      "type": "rectangle",
+      "x": 590,
+      "y": 820,
+      "width": 200,
+      "height": 80,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "mfa-valid-label",
+      "type": "text",
+      "x": 600,
+      "y": 848,
+      "width": 180,
+      "height": 24,
+      "text": "Code Correct?",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "mfa-valid-decision"
+    },
+    {
+      "id": "mfa-error",
+      "type": "rectangle",
+      "x": 840,
+      "y": 820,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "mfa-error-label",
+      "type": "text",
+      "x": 850,
+      "y": 843,
+      "width": 160,
+      "height": 24,
+      "text": "MFA Failed",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "mfa-error"
+    },
+    {
+      "id": "end-mfa-fail",
+      "type": "rectangle",
+      "x": 840,
+      "y": 950,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "end-mfa-fail-label",
+      "type": "text",
+      "x": 850,
+      "y": 968,
+      "width": 140,
+      "height": 24,
+      "text": "Access Denied",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end-mfa-fail"
+    },
+    {
+      "id": "create-session",
+      "type": "rectangle",
+      "x": 350,
+      "y": 960,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "create-session-label",
+      "type": "text",
+      "x": 360,
+      "y": 983,
+      "width": 160,
+      "height": 24,
+      "text": "Create Session",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "create-session"
+    },
+    {
+      "id": "redirect",
+      "type": "rectangle",
+      "x": 350,
+      "y": 1090,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "redirect-label",
+      "type": "text",
+      "x": 360,
+      "y": 1113,
+      "width": 160,
+      "height": 24,
+      "text": "Redirect Dashboard",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "redirect"
+    },
+    {
+      "id": "end",
+      "type": "rectangle",
+      "x": 360,
+      "y": 1220,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "end-label",
+      "type": "text",
+      "x": 390,
+      "y": 1238,
+      "width": 100,
+      "height": 24,
+      "text": "End",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end"
+    },
+    {
+      "id": "arr-start-enter",
+      "type": "arrow",
+      "x": 440,
+      "y": 100,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "start",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "enter-creds",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "arr-enter-validate",
+      "type": "arrow",
+      "x": 440,
+      "y": 230,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "enter-creds",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "validate",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "arr-validate-decision",
+      "type": "arrow",
+      "x": 440,
+      "y": 360,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "validate",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "valid-decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "arr-decision-error",
+      "type": "arrow",
+      "x": 340,
+      "y": 460,
+      "width": -90,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "valid-decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "error-node",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -90,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label-no-valid",
+      "type": "text",
+      "x": 265,
+      "y": 440,
+      "width": 30,
+      "height": 20,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "arr-error-retry",
+      "type": "arrow",
+      "x": 180,
+      "y": 420,
+      "width": 0,
+      "height": -230,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "error-node",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "enter-creds",
+        "focus": -0.8,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -230
+        ]
+      ]
+    },
+    {
+      "id": "label-retry",
+      "type": "text",
+      "x": 185,
+      "y": 290,
+      "width": 40,
+      "height": 20,
+      "text": "Retry",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "arr-decision-mfa",
+      "type": "arrow",
+      "x": 440,
+      "y": 500,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "valid-decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "mfa-decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "label-yes-valid",
+      "type": "text",
+      "x": 450,
+      "y": 516,
+      "width": 30,
+      "height": 20,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "arr-mfa-send",
+      "type": "arrow",
+      "x": 540,
+      "y": 600,
+      "width": 60,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "mfa-decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "send-code",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          60,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label-yes-mfa",
+      "type": "text",
+      "x": 555,
+      "y": 582,
+      "width": 30,
+      "height": 20,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "arr-send-verify",
+      "type": "arrow",
+      "x": 690,
+      "y": 630,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "send-code",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "verify-code",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "arr-verify-mfadecision",
+      "type": "arrow",
+      "x": 690,
+      "y": 760,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "verify-code",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "mfa-valid-decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "arr-mfadecision-error",
+      "type": "arrow",
+      "x": 790,
+      "y": 860,
+      "width": 50,
+      "height": 0,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "mfa-valid-decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "mfa-error",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label-no-mfa",
+      "type": "text",
+      "x": 800,
+      "y": 840,
+      "width": 30,
+      "height": 20,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "arr-mfaerror-end",
+      "type": "arrow",
+      "x": 920,
+      "y": 890,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "mfa-error",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end-mfa-fail",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "arr-mfadecision-session",
+      "type": "arrow",
+      "x": 690,
+      "y": 900,
+      "width": -250,
+      "height": 95,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "mfa-valid-decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "create-session",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -250,
+          95
+        ]
+      ]
+    },
+    {
+      "id": "label-yes-mfacode",
+      "type": "text",
+      "x": 590,
+      "y": 918,
+      "width": 30,
+      "height": 20,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "arr-mfa-no-session",
+      "type": "arrow",
+      "x": 440,
+      "y": 640,
+      "width": 0,
+      "height": 320,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "mfa-decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "create-session",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          320
+        ]
+      ]
+    },
+    {
+      "id": "label-no-mfa-branch",
+      "type": "text",
+      "x": 448,
+      "y": 790,
+      "width": 30,
+      "height": 20,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "id": "arr-session-redirect",
+      "type": "arrow",
+      "x": 440,
+      "y": 1030,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "create-session",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "redirect",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "arr-redirect-end",
+      "type": "arrow",
+      "x": 440,
+      "y": 1160,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "startBinding": {
+        "elementId": "redirect",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end",
+        "focus": 0,
+        "gap": 1
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    }
+  ]
+}

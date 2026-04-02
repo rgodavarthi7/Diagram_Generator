@@ -1,0 +1,134 @@
+You are an expert at creating Excalidraw diagrams. Generate a valid Excalidraw JSON file for the topic described below.
+
+STRICT REQUIREMENTS:
+- Output ONLY valid JSON (no markdown fences, no explanation)
+- Use the Excalidraw format: {"type": "excalidraw", "version": 2, "elements": [...]}
+
+═══════════════════════════════════════════
+FLOWCHART SYMBOL RULES — CRITICAL
+═══════════════════════════════════════════
+Use CORRECT flowchart symbols for each node type:
+
+1. START / END (Terminal) nodes:
+   - Use type: "ellipse" (oval/rounded shape)
+   - backgroundColor: "#a5d8ff" (blue) for Start
+   - backgroundColor: "#fcc2d7" (pink) for End ONLY
+   - strokeColor: "#1971c2" for Start ellipse; "#c2255c" for End ellipse
+   - Label: "Start" or "End"
+   - ONLY terminal nodes use pink or blue — no other nodes
+
+2. PROCESS / ACTION nodes:
+   - Use type: "rectangle" with roundness: {"type": 3}
+   - backgroundColor: "#b2f2bb" (green) for primary actions
+   - backgroundColor: "#d0bfff" (purple) for secondary/alternate actions
+   - backgroundColor: "#ffd8a8" (orange) for input/output steps ONLY
+   - strokeColor matched to background (see color rules below)
+
+3. DECISION nodes — MUST USE DIAMOND SHAPE:
+   - Use type: "diamond" (NOT rectangle, NOT ellipse)
+   - backgroundColor: "#fff3bf" (yellow)
+   - strokeColor: "#f08c00"
+   - Label must be a YES/NO question (e.g., "Valid?", "Approved?", "Error?")
+   - Every diamond MUST have exactly TWO outgoing arrows
+   - One arrow goes to "Yes" path, one to "No" path
+   - YES/NO labels MUST appear as standalone text elements near each arrow
+
+═══════════════════════════════════════════
+YES/NO LABEL REQUIREMENT — MANDATORY
+═══════════════════════════════════════════
+For EVERY decision diamond, you MUST create:
+- A text element with text "Yes" placed near the Yes-branch arrow midpoint
+- A text element with text "No" placed near the No-branch arrow midpoint
+- These text elements must NOT have a containerId (they are free-floating labels)
+- Place "Yes" label offset slightly from the arrow (e.g., +20px from arrow midpoint)
+- Place "No" label offset slightly from the arrow (e.g., +20px from arrow midpoint)
+- Without these labels, the diagram FAILS label_clarity
+
+EXAMPLE: If diamond is at x=400, y=300 and Yes-arrow goes down, place "Yes" text at x=430, y=370. If No-arrow goes left, place "No" text at x=250, y=310.
+
+═══════════════════════════════════════════
+BRANCH COMPLETENESS — MANDATORY
+═══════════════════════════════════════════
+- Every decision diamond MUST have BOTH a "Yes" branch AND a "No" branch
+- Every branch MUST connect to a valid node (no dangling arrows)
+- Every path through the diagram MUST eventually reach an End node
+- "Error" or "Reject" nodes are NOT end nodes — they must connect forward to an End ellipse
+- If a "No" branch loops back, the arrow must explicitly connect back to a prior node ID
+- BEFORE generating JSON: mentally trace every path — each must terminate at End ellipse
+- Maximum diagram size: 12 shape nodes total (keep it simple and complete)
+
+═══════════════════════════════════════════
+EDGE CROSSING PREVENTION — CRITICAL
+═══════════════════════════════════════════
+Arrow crossings make diagrams unreadable. Follow these rules to PREVENT crossings:
+
+LAYOUT STRATEGY:
+- Main flow runs straight DOWN the center (x≈400)
+- "Yes" branch from each diamond continues STRAIGHT DOWN (same x as diamond)
+- "No" branch from each diamond goes to the LEFT side (x≈150) or RIGHT side (x≈650)
+- All "No" branches go to the SAME side (all left, or all right — never mix sides)
+- Error/alternate nodes on the No-branch side connect DOWN on that same side to End
+
+ARROW ROUTING:
+- Arrows between nodes on the same vertical column go straight down (no bends needed)
+- Arrows that must cross the center MUST be routed around the diagram (use waypoints)
+- NEVER route a No-branch arrow through the center column where Yes-arrows travel
+- If a No-branch loops back up, route it along the LEFT edge (x≈100), not through center
+
+SIMPLE TOPOLOGY:
+- Use at most TWO decision diamonds in the diagram
+- With two diamonds: first diamond Yes→second diamond, No→left column error node
+- Second diamond Yes→process→End, No→left column error node→End
+- This creates two parallel columns (center=happy path, left=error path) with no crossings
+
+═══════════════════════════════════════════
+COLOR SEMANTICS — FOLLOW EXACTLY
+═══════════════════════════════════════════
+Use color to convey meaning consistently:
+- BLUE (#a5d8ff / stroke #1971c2): Start terminal nodes ONLY
+- PINK (#fcc2d7 / stroke #c2255c): End terminal nodes ONLY — not error nodes, not reject nodes
+- YELLOW (#fff3bf / stroke #f08c00): Decision/diamond nodes ONLY
+- GREEN (#b2f2bb / stroke #2f9e44): Primary process/action nodes
+- PURPLE (#d0bfff / stroke #6741d9): Secondary process/action nodes
+- ORANGE (#ffd8a8 / stroke #e8590c): Input/output steps ONLY
+
+NEVER use pink for error nodes. Error/reject process nodes use GREEN or PURPLE rectangles.
+
+═══════════════════════════════════════════
+CRITICAL COLOR RULES
+═══════════════════════════════════════════
+- Every shape element MUST include "backgroundColor" as one of these SIX exact hex strings:
+  "#a5d8ff", "#d0bfff", "#b2f2bb", "#ffd8a8", "#fcc2d7", "#fff3bf"
+- NEVER use "#ffffff", "transparent", null, or any other color for backgroundColor
+- NEVER omit "backgroundColor" from any shape element
+- strokeColor MUST match the paired dark version:
+  "#a5d8ff" → "#1971c2" | "#d0bfff" → "#6741d9" | "#b2f2bb" → "#2f9e44"
+  "#ffd8a8" → "#e8590c" | "#fcc2d7" → "#c2255c" | "#fff3bf" → "#f08c00"
+- Set "fillStyle": "solid" on every shape
+
+═══════════════════════════════════════════
+LAYOUT RULES
+═══════════════════════════════════════════
+- Arrange nodes in a clear TOP-TO-BOTTOM flow (vertical layout)
+- Start node at top-center; End node(s) at bottom
+- Main (Yes) path flows straight down the center column (x≈400)
+- Error (No) path flows down a side column (x≈150 for left side)
+- Space nodes ~130px apart vertically
+- Node sizes: rectangles/ellipses ~160x70, diamonds ~160x100
+- Diagram total height: aim for ~800-1000px (8-10 nodes tall)
+- MAXIMUM 12 shape nodes — do not exceed
+
+═══════════════════════════════════════════
+ARROW RULES
+═══════════════════════════════════════════
+- Use type: "arrow" with startBinding and endBinding referencing element IDs
+- All arrows must have valid startBinding and endBinding (no floating arrows)
+- Arrow strokeColor: "#1971c2" for main flow, "#2f9e44" for Yes branches, "#e8590c" for No/error branches
+- Keep arrows as straight vertical or horizontal lines where possible
+- Avoid diagonal arrows that cross other arrows or nodes
+
+═══════════════════════════════════════════
+ELEMENT RULES
+═══════════════════════════════════════════
+- fontFamily: 1 (Virgil), roughness: 1, strokeWidth: 2
+- Text labels

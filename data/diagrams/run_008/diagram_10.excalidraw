@@ -1,0 +1,336 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "rect1",
+      "type": "rectangle",
+      "x": 60,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "x": 100,
+      "y": 228,
+      "width": 80,
+      "height": 24,
+      "text": "Client",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect1"
+    },
+    {
+      "id": "rect2",
+      "type": "rectangle",
+      "x": 320,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "x": 360,
+      "y": 228,
+      "width": 80,
+      "height": 24,
+      "text": "CDN",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect2"
+    },
+    {
+      "id": "rect3",
+      "type": "rectangle",
+      "x": 580,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "text3",
+      "type": "text",
+      "x": 620,
+      "y": 228,
+      "width": 80,
+      "height": 24,
+      "text": "App Server",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect3"
+    },
+    {
+      "id": "rect4",
+      "type": "rectangle",
+      "x": 840,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "text4",
+      "type": "text",
+      "x": 880,
+      "y": 228,
+      "width": 80,
+      "height": 24,
+      "text": "Cache",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect4"
+    },
+    {
+      "id": "rect5",
+      "type": "rectangle",
+      "x": 1100,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "roughness": 1,
+      "roundness": {
+        "type": 3
+      },
+      "strokeWidth": 2
+    },
+    {
+      "id": "text5",
+      "type": "text",
+      "x": 1140,
+      "y": 228,
+      "width": 80,
+      "height": 24,
+      "text": "Database",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect5"
+    },
+    {
+      "id": "arrow1",
+      "type": "arrow",
+      "x": 220,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "strokeColor": "#1971c2",
+      "roughness": 1,
+      "strokeWidth": 2,
+      "startBinding": {
+        "elementId": "rect1",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect2",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrow2",
+      "type": "arrow",
+      "x": 480,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "strokeColor": "#6741d9",
+      "roughness": 1,
+      "strokeWidth": 2,
+      "startBinding": {
+        "elementId": "rect2",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect3",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrow3",
+      "type": "arrow",
+      "x": 740,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "roughness": 1,
+      "strokeWidth": 2,
+      "startBinding": {
+        "elementId": "rect3",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect4",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "arrow4",
+      "type": "arrow",
+      "x": 1000,
+      "y": 240,
+      "width": 100,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "strokeColor": "#e8590c",
+      "roughness": 1,
+      "strokeWidth": 2,
+      "startBinding": {
+        "elementId": "rect4",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rect5",
+        "focus": 0,
+        "gap": 1
+      }
+    },
+    {
+      "id": "label1",
+      "type": "text",
+      "x": 240,
+      "y": 216,
+      "width": 80,
+      "height": 20,
+      "text": "Request",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "label2",
+      "type": "text",
+      "x": 490,
+      "y": 216,
+      "width": 80,
+      "height": 20,
+      "text": "Cache Miss",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#6741d9"
+    },
+    {
+      "id": "label3",
+      "type": "text",
+      "x": 745,
+      "y": 216,
+      "width": 90,
+      "height": 20,
+      "text": "Lookup",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "label4",
+      "type": "text",
+      "x": 1005,
+      "y": 216,
+      "width": 90,
+      "height": 20,
+      "text": "Fetch Data",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "strokeColor": "#e8590c"
+    }
+  ]
+}
