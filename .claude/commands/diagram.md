@@ -330,12 +330,24 @@ Cycle through these. Every shape MUST use one of these pairs:
 
 Arrow strokeColor: use the stroke color of the source element.
 
-### Color Assignments for Flowcharts
-- **Start terminal**: Blue (#a5d8ff / #1971c2)
-- **End terminal**: Pink (#fcc2d7 / #c2255c)
-- **Decision diamonds**: Yellow (#fff3bf / #f08c00)
-- **Process rectangles**: Cycle through Purple, Green, Orange for variety
-- **Error/failure rectangles**: Orange (#ffd8a8 / #e8590c)
+### Flowchart Color-Role Mapping — MANDATORY (NO EXCEPTIONS)
+
+| Role              | backgroundColor | strokeColor | Shape Type |
+|-------------------|----------------|-------------|------------|
+| Start terminal    | #a5d8ff        | #1971c2     | ellipse    |
+| End terminal(s)   | #fcc2d7        | #c2255c     | ellipse    |
+| Decision          | #fff3bf        | #f08c00     | diamond    |
+| Normal process    | #b2f2bb        | #2f9e44     | rectangle  |
+| Error/rejection   | #ffd8a8        | #e8590c     | rectangle  |
+| Alt process       | #d0bfff        | #6741d9     | rectangle  |
+
+ABSOLUTE RULES:
+- Decision diamonds MUST use yellow (#fff3bf) — NEVER orange (#ffd8a8)
+- Error rectangles MUST use orange (#ffd8a8) — NEVER yellow
+- Start MUST be blue (#a5d8ff) — NEVER green, NEVER purple
+- End MUST be pink (#fcc2d7)
+- NEVER use "#ffffff", "transparent", or null for any shape backgroundColor
+- Every shape MUST have "fillStyle": "solid"
 
 ---
 
@@ -358,6 +370,12 @@ Position formula for component index i (starting at 0):
 ## Layout Mode B: Flowchart (Top-to-Bottom)
 
 Use this when the description involves decisions, conditions, branching, if/then/else, error handling, or retry/loop logic.
+
+### Complexity Bounds
+- Aim for 5-10 shapes (rectangles + diamonds + ellipses)
+- Maximum 3 decision diamonds per diagram
+- Total elements (shapes + text labels + arrows): 15-30
+- If the description needs more complexity, suggest splitting into multiple diagrams
 
 ### Grid Constants
 ```
@@ -421,6 +439,28 @@ arrow.points = [[0, 0], [0, dy/2], [dx, dy]]
 6. **Start** is always row 0, **End** is always the last row
 7. **Loop/retry arrows** route along the outside (right edge) and arc back up using 4-point paths
 
+### Branch Completeness — CRITICAL
+
+Before finalizing the diagram, verify:
+- Every path from Start MUST reach an End ellipse — NO dead ends
+- Every diamond has exactly 2 outgoing arrows (one "Yes", one "No")
+- Every side-branch process connects to an End terminal via a merge arrow
+- Self-check: trace each path manually:
+  - Start → ... → Decision → (Yes path) → ... → End ✓
+  - Start → ... → Decision → (No path) → ... → End ✓
+- If any path terminates at a process node without reaching End, add the missing arrow
+
+### Edge Crossing Prevention — CRITICAL
+
+Arrows MUST NOT cross each other. Follow these layout rules:
+- "Yes" arrow from diamond goes STRAIGHT DOWN (width=0, x unchanged)
+- "No" arrow from diamond goes STRAIGHT LEFT or RIGHT (height=0 initially, then bends down)
+- Use TWO columns only: main column (x≈400) and side column (x≈60-90 or x≈700)
+- Vertical arrows: width=0, points=[[0,0],[0,dy]] — never diagonal
+- Horizontal arrows: height=0, points=[[0,0],[dx,0]] — never diagonal
+- Merge arrows from side branch to End: go down first, then across — never cross main flow
+- NO diagonal arrows that could intersect other paths
+
 ### Example: API Request Lifecycle with Auth + Rate Limiting
 
 ```
@@ -453,10 +493,17 @@ Arrows:
 
 ## Text Rules — CRITICAL
 
-- Node labels: 1-3 words max, letters and spaces only
-- Diamond labels: 1-2 words (less space inside diamond)
-- Arrow labels: single word — "Yes", "No", "Error", "Retry"
+- **Decision diamond text**: MUST be a complete Yes/No question ending with "?"
+  - Good: "Auth Valid?", "Rate Limited?", "File Safe?"
+  - Bad: "Check Auth", "Validate", "Rate Limit"
+- **Process rectangle text**: MUST be a clear action verb phrase, fully spelled out
+  - Good: "Validate Credentials", "Send Confirmation", "Charge Card"
+  - Bad: "Validate", "Send", "Process"
+- **Arrow labels on decision branches**: MUST be exactly "Yes" and "No"
+  - Every diamond's downward arrow gets "Yes", side arrow gets "No"
+- **Start/End ellipses**: text is exactly "Start" and "End"
 - **ZERO digits** anywhere — no "Step 1", "v2", "Phase 3"
+- Max label length: 3 words for rectangles, question phrase for diamonds
 
 ---
 

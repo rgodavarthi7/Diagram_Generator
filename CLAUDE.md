@@ -4,7 +4,7 @@ Excalidraw diagram generator with an autoresearch-style prompt optimization loop
 
 ## Project Structure
 
-- `autoresearch.py` — Main generate → evaluate → mutate loop (Claude Sonnet on Bedrock for generation/mutation, Claude Haiku for eval)
+- `autoresearch.py` — Main generate → evaluate → mutate loop (Claude Opus on Bedrock for generation/mutation, Claude Haiku for eval)
 - `dashboard.py` — Live web dashboard for tracking optimization runs
 - `validate_diagram.py` — Validates `.excalidraw` JSON files against project rules
 - `data/output/` — Generated Excalidraw diagram files
@@ -27,11 +27,15 @@ Excalidraw diagram generator with an autoresearch-style prompt optimization loop
 - Excalidraw elements must include ALL required fields (seed, version, opacity, points, boundElements, appState, etc.) or they won't render in the VS Code extension
 - Two layout modes: **Linear** (simple sequential workflows) and **Flowchart** (decisions, branches, merges, loops)
 - Flowchart element types: rectangle (process), diamond (decision), ellipse (start/end terminal)
-- Decision diamonds must have at least 2 outgoing arrows with labels ("Yes"/"No")
+- Color-role mapping is MANDATORY: yellow (#fff3bf) = decisions, orange (#ffd8a8) = errors, blue (#a5d8ff) = start, pink (#fcc2d7) = end, green (#b2f2bb) = normal process
+- Every decision diamond label must be a Yes/No question ending with "?"
+- Every path must reach an End terminal — no dead ends allowed
+- Decision diamonds must have exactly 2 outgoing arrows labeled "Yes" (down) and "No" (side)
 - Arrow labels are text elements with `containerId` pointing to the arrow
 - Flowchart layout uses a column/row grid: column 0 = main flow, +/-1 = branches
+- Arrows must not cross — use two-column layout (main x≈400, side x≈60-90)
+- Complexity bounds: 5-10 shapes, max 3 diamonds, 15-30 total elements
 - Diagram labels: 1-3 words, no digits
-- Color palette is strict — only use the 6 pastel/stroke pairs defined in the diagram skill
 
 ## Autoresearch Evaluation Criteria (8 total, max 80 per batch)
 
@@ -50,5 +54,5 @@ Each criterion: programmatic check + Claude Haiku eval → min(both) = final sco
 
 ## Environment
 
-- AWS Bedrock for Claude Sonnet (generation/mutation) and Claude Haiku (eval)
+- AWS Bedrock for Claude Opus (generation/mutation) and Claude Haiku (eval)
 - Credentials in `.env` (not committed)

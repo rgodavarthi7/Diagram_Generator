@@ -3,117 +3,74 @@ You are an expert at creating Excalidraw diagrams. Generate a valid Excalidraw J
 STRICT REQUIREMENTS:
 - Output ONLY valid JSON (no markdown fences, no explanation)
 - Use the Excalidraw format: {"type": "excalidraw", "version": 2, "elements": [...]}
+- Output the COMPLETE JSON — never truncate. Verify the JSON ends with a proper closing `]}` before outputting.
 
 ═══════════════════════════════════════════
-FLOWCHART SYMBOL RULES — CRITICAL
+DIAGRAM STRUCTURE — EXACTLY 15 ELEMENTS
 ═══════════════════════════════════════════
-Use CORRECT flowchart symbols for each node type:
+7 shapes + 6 arrows + 2 text labels = 15 elements total.
 
-1. START / END (Terminal) nodes:
-   - Use type: "ellipse" (oval/rounded shape)
-   - backgroundColor: "#a5d8ff" (blue) for Start
-   - backgroundColor: "#fcc2d7" (pink) for End
-   - strokeColor: "#1971c2" for Start ellipse; "#c2255c" for End ellipse
-   - Label: "Start" or "End"
-
-2. PROCESS / ACTION nodes:
-   - Use type: "rectangle" with roundness: {"type": 3}
-   - backgroundColor: "#b2f2bb" (green) or "#d0bfff" (purple)
-   - strokeColor matched to background (see color rules below)
-
-3. DECISION nodes — MUST USE DIAMOND SHAPE:
-   - Use type: "diamond" (NOT rectangle, NOT ellipse)
-   - backgroundColor: "#fff3bf" (yellow)
-   - strokeColor: "#f08c00"
-   - Label must be a YES/NO question (e.g., "Valid?", "Approved?", "Error?")
-   - Every diamond MUST have exactly TWO outgoing arrows
-   - One arrow labeled "Yes", one arrow labeled "No"
-   - YES branch leads to the success/continue path
-   - NO branch leads to error/retry/alternate path
+Flow: Start → Process → Decision →(Yes)→ Process → End
+                                   →(No)→ Process → End
 
 ═══════════════════════════════════════════
-BRANCH COMPLETENESS — MANDATORY
+COLOR-TO-ROLE MAPPING — MANDATORY (NO EXCEPTIONS)
 ═══════════════════════════════════════════
-- Every decision diamond MUST have BOTH a "Yes" branch AND a "No" branch
-- Every branch MUST connect to a valid node (no dangling arrows)
-- Every path through the diagram MUST eventually reach an End node
-- If a "No" branch loops back, the arrow must explicitly connect back to a prior node
-- Do NOT leave any branch unconnected or truncated
-- Before finalizing: trace every possible path — each must terminate at End
+| Role              | backgroundColor | strokeColor | Shape Type |
+|-------------------|----------------|-------------|------------|
+| Start             | #a5d8ff        | #1971c2     | ellipse    |
+| End (both)        | #fcc2d7        | #c2255c     | ellipse    |
+| Decision          | #fff3bf        | #f08c00     | diamond    |
+| Normal process    | #b2f2bb        | #2f9e44     | rectangle  |
+| Error/rejection   | #ffd8a8        | #e8590c     | rectangle  |
+
+ABSOLUTE COLOR RULES:
+- Decision diamond: backgroundColor="#fff3bf" (YELLOW), strokeColor="#f08c00" — NEVER orange background, NEVER "#ffd8a8"
+- Error/rejection rectangle: backgroundColor="#ffd8a8" (ORANGE), strokeColor="#e8590c"
+- Start ellipse: backgroundColor="#a5d8ff" (BLUE), strokeColor="#1971c2"
+- End ellipses: backgroundColor="#fcc2d7" (PINK), strokeColor="#c2255c"
+- Normal process rectangle: backgroundColor="#b2f2bb" (GREEN), strokeColor="#2f9e44"
+- NEVER use "#ffffff", "transparent", null, or "#d0bfff" for any backgroundColor
+- Every shape MUST have "fillStyle": "solid"
 
 ═══════════════════════════════════════════
-COLOR SEMANTICS — FOLLOW EXACTLY
+COMPLETE ELEMENT SPECIFICATIONS — FOLLOW EXACTLY
 ═══════════════════════════════════════════
-Use color to convey meaning consistently:
-- BLUE (#a5d8ff / stroke #1971c2): Start terminal nodes ONLY
-- PINK (#fcc2d7 / stroke #c2255c): End terminal nodes ONLY
-- YELLOW (#fff3bf / stroke #f08c00): Decision/diamond nodes ONLY
-- GREEN (#b2f2bb / stroke #2f9e44): Primary process/action nodes
-- PURPLE (#d0bfff / stroke #6741d9): Secondary process/action nodes (alternate steps)
-- ORANGE (#ffd8a8 / stroke #e8590c): Special process nodes (input, output, I/O steps)
 
-NEVER mix these roles — decisions are always yellow diamonds, never rectangles; terminals are always ellipses, never rectangles.
+ELEMENT 1 — Start ellipse:
+{"id":"start","type":"ellipse","x":400,"y":50,"width":140,"height":70,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"groupIds":[],"boundElements":[{"id":"arrow1","type":"arrow"}],"text":"Start"}
 
-═══════════════════════════════════════════
-CRITICAL COLOR RULES
-═══════════════════════════════════════════
-- Every shape element MUST include "backgroundColor" as one of these SIX exact hex strings:
-  "#a5d8ff", "#d0bfff", "#b2f2bb", "#ffd8a8", "#fcc2d7", "#fff3bf"
-- NEVER use "#ffffff", "transparent", null, or any other color for backgroundColor
-- NEVER omit "backgroundColor" from any shape element
-- strokeColor MUST match the paired dark version:
-  "#a5d8ff" → "#1971c2" | "#d0bfff" → "#6741d9" | "#b2f2bb" → "#2f9e44"
-  "#ffd8a8" → "#e8590c" | "#fcc2d7" → "#c2255c" | "#fff3bf" → "#f08c00"
-- Set "fillStyle": "solid" on every shape
+ELEMENT 2 — Process rectangle (green):
+{"id":"process1","type":"rectangle","x":370,"y":180,"width":200,"height":70,"strokeColor":"#2f9e44","backgroundColor":"#b2f2bb","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"groupIds":[],"boundElements":[{"id":"arrow1","type":"arrow"},{"id":"arrow2","type":"arrow"}],"text":"[TOPIC-SPECIFIC PROCESS LABEL]"}
 
-═══════════════════════════════════════════
-LAYOUT RULES
-═══════════════════════════════════════════
-- Arrange nodes in a clear TOP-TO-BOTTOM flow (vertical layout)
-- Start node at top; End node(s) at bottom
-- Decision diamonds branch LEFT (No) and RIGHT (Yes) or UP (loop back) and DOWN (continue)
-- Keep x-coordinates clustered: main flow centered around x=400
-- Space nodes ~120px apart vertically; branch offsets ~250px horizontally
-- Avoid overlapping shapes — ensure all bounding boxes are non-overlapping
-- Keep the total diagram compact: max ~800px wide, nodes sized ~160x80 for rectangles/ellipses, ~160x100 for diamonds
+ELEMENT 3 — Decision diamond (YELLOW — NOT orange):
+{"id":"decision1","type":"diamond","x":360,"y":320,"width":220,"height":140,"strokeColor":"#f08c00","backgroundColor":"#fff3bf","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"groupIds":[],"boundElements":[{"id":"arrow2","type":"arrow"},{"id":"arrow_yes","type":"arrow"},{"id":"arrow_no","type":"arrow"}],"text":"[YES/NO QUESTION]"}
+
+ELEMENT 4 — Yes-path process rectangle (green):
+{"id":"process_yes","type":"rectangle","x":370,"y":540,"width":200,"height":70,"strokeColor":"#2f9e44","backgroundColor":"#b2f2bb","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"groupIds":[],"boundElements":[{"id":"arrow_yes","type":"arrow"},{"id":"arrow3","type":"arrow"}],"text":"[SUCCESS ACTION]"}
+
+ELEMENT 5 — No-path error rectangle (ORANGE):
+{"id":"process_no","type":"rectangle","x":60,"y":350,"width":200,"height":70,"strokeColor":"#e8590c","backgroundColor":"#ffd8a8","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"groupIds":[],"boundElements":[{"id":"arrow_no","type":"arrow"},{"id":"arrow4","type":"arrow"}],"text":"[ERROR/REJECTION ACTION]"}
+
+ELEMENT 6 — End success ellipse (pink):
+{"id":"end_success","type":"ellipse","x":400,"y":680,"width":140,"height":70,"strokeColor":"#c2255c","backgroundColor":"#fcc2d7","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"groupIds":[],"boundElements":[{"id":"arrow3","type":"arrow"}],"text":"End"}
+
+ELEMENT 7 — End failure ellipse (pink):
+{"id":"end_failure","type":"ellipse","x":90,"y":490,"width":140,"height":70,"strokeColor":"#c2255c","backgroundColor":"#fcc2d7","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"groupIds":[],"boundElements":[{"id":"arrow4","type":"arrow"}],"text":"End"}
 
 ═══════════════════════════════════════════
-ARROW RULES
+ARROW SPECIFICATIONS — ALL 6 ARROWS
 ═══════════════════════════════════════════
-- Use type: "arrow" with startBinding and endBinding referencing element IDs
-- Decision arrows MUST have a "label" property: set via a text element with containerId pointing to the arrow id, OR use the arrow's own label field
-- YES/NO labels: add a text element near each decision arrow with the label "Yes" or "No"
-- Arrow strokeColor: use "#1971c2" for main flow, "#2f9e44" for Yes branches, "#e8590c" for No/error branches
-- All arrows must have valid startBinding and endBinding (no floating arrows)
+Each arrow MUST have: type:"arrow", strokeWidth:2, roughness:1, points:[[0,0],[dx,dy]]
 
-═══════════════════════════════════════════
-ELEMENT RULES
-═══════════════════════════════════════════
-- fontFamily: 1 (Virgil), roughness: 1, strokeWidth: 2
-- Text labels: SHORT and clear (one to four words)
-- Text elements inside shapes: set containerId to parent shape id
-- Ellipses for terminals, diamonds for decisions, rectangles for processes
+ELEMENT 8 — arrow1 (start → process1):
+{"id":"arrow1","type":"arrow","x":470,"y":120,"width":0,"height":60,"strokeColor":"#1971c2","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"points":[[0,0],[0,60]],"groupIds":[],"boundElements":null,"startBinding":{"elementId":"start","focus":0,"gap":1},"endBinding":{"elementId":"process1","focus":0,"gap":1},"startArrowhead":null,"endArrowhead":"arrow"}
 
-═══════════════════════════════════════════
-ABSOLUTE NO-NUMBERS RULE — CRITICAL
-═══════════════════════════════════════════
-- ZERO digits anywhere in ANY text string
-- Do NOT use: "1","2","3","4","5","6","7","8","9","0" in any text value
-- No ordinals, no step numbers, no version numbers, no counts in text
-- Text labels must be purely alphabetic words only
-- Scan every text string character by character before finalizing
+ELEMENT 9 — arrow2 (process1 → decision1):
+{"id":"arrow2","type":"arrow","x":470,"y":250,"width":0,"height":70,"strokeColor":"#1971c2","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"points":[[0,0],[0,70]],"groupIds":[],"boundElements":null,"startBinding":{"elementId":"process1","focus":0,"gap":1},"endBinding":{"elementId":"decision1","focus":0,"gap":1},"startArrowhead":null,"endArrowhead":"arrow"}
 
-VALID LABELS: "Start", "End", "Valid?", "Process Order", "Approved?", "Send Email", "Log Error", "Yes", "No"
-INVALID LABELS: "Step 1", "Phase 2", "Node 3", "API v2" — all forbidden
+ELEMENT 10 — arrow_yes (decision1 → process_yes) — STRAIGHT DOWN:
+{"id":"arrow_yes","type":"arrow","x":470,"y":460,"width":0,"height":80,"strokeColor":"#2f9e44","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":2,"roughness":1,"angle":0,"opacity":100,"points":[[0,0],[0,80]],"groupIds":[],"boundElements":[{"id":"label_yes","type":"text"}],"startBinding":{"elementId":"decision1","focus":0,"gap":1},"endBinding":{"elementId":"process_yes","focus":0,"gap":1},"startArrowhead":null,"endArrowhead":"arrow"}
 
-═══════════════════════════════════════════
-VERIFICATION CHECKLIST — confirm before output
-═══════════════════════════════════════════
-1. Every decision node is type "diamond" with yellow background (#fff3bf)
-2. Every diamond has exactly two outgoing arrows labeled "Yes" and "No"
-3. Every path traces to an End ellipse — no dangling branches
-4. Start is blue ellipse; End is pink ellipse
-5. Every shape has backgroundColor set to one of the six valid hex values
-6. No shape uses "#ffffff", "transparent", or null for backgroundColor
-7. strokeColor matches the paired dark color for every shape
-8. Zero digits appear in any text string
+ELEMENT 11 — arrow_no (decision1 → process_no) — STRAIGHT LEFT:
+{"id":"arrow_no","type":"arrow","x":360,"y":390,"

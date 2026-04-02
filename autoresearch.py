@@ -37,7 +37,7 @@ STATE_FILE = DATA_DIR / "state.json"
 RESULTS_FILE = DATA_DIR / "results.jsonl"
 
 # -- Constants ------------------------------------------------------------------
-CLAUDE_GEN_MODEL = "us.anthropic.claude-sonnet-4-6"               # generation + mutation
+CLAUDE_GEN_MODEL = "us.anthropic.claude-opus-4-6-v1"              # generation + mutation
 CLAUDE_EVAL_MODEL = "us.anthropic.claude-haiku-4-5-20251001-v1:0"  # eval (cheaper)
 DIAGRAMS_PER_RUN = 10
 LOOP_INTERVAL_SECONDS = 120
