@@ -1,0 +1,1319 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hand-built",
+  "elements": [
+    {
+      "id": "start",
+      "type": "ellipse",
+      "x": 400,
+      "y": 50,
+      "width": 140,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "id": "start_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow1",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "start_text",
+      "type": "text",
+      "x": 435,
+      "y": 68,
+      "width": 70,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Start",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "start"
+    },
+    {
+      "id": "receive_order",
+      "type": "rectangle",
+      "x": 390,
+      "y": 180,
+      "width": 160,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "receive_order_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow1",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow2",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "receive_order_text",
+      "type": "text",
+      "x": 410,
+      "y": 198,
+      "width": 120,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Receive Order",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "receive_order"
+    },
+    {
+      "id": "check_inventory",
+      "type": "diamond",
+      "x": 370,
+      "y": 320,
+      "width": 200,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "id": "check_inventory_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow2",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_no",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "check_inventory_text",
+      "type": "text",
+      "x": 420,
+      "y": 367,
+      "width": 100,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "In Stock?",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "check_inventory"
+    },
+    {
+      "id": "reserve_items",
+      "type": "rectangle",
+      "x": 390,
+      "y": 520,
+      "width": 160,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "reserve_items_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow3",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "reserve_items_text",
+      "type": "text",
+      "x": 410,
+      "y": 538,
+      "width": 120,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Reserve Items",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "reserve_items"
+    },
+    {
+      "id": "backorder",
+      "type": "rectangle",
+      "x": 80,
+      "y": 340,
+      "width": 160,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "backorder_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_no",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_backorder_to_reserve",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "backorder_text",
+      "type": "text",
+      "x": 100,
+      "y": 358,
+      "width": 120,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Backorder",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "backorder"
+    },
+    {
+      "id": "process_payment",
+      "type": "rectangle",
+      "x": 390,
+      "y": 650,
+      "width": 160,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "process_payment_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow3",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow4",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "process_payment_text",
+      "type": "text",
+      "x": 395,
+      "y": 668,
+      "width": 150,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Process Payment",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "process_payment"
+    },
+    {
+      "id": "pack_shipment",
+      "type": "rectangle",
+      "x": 390,
+      "y": 780,
+      "width": 160,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "pack_shipment_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow4",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow5",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "pack_shipment_text",
+      "type": "text",
+      "x": 410,
+      "y": 798,
+      "width": 120,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Pack Shipment",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pack_shipment"
+    },
+    {
+      "id": "ship",
+      "type": "rectangle",
+      "x": 390,
+      "y": 910,
+      "width": 160,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "ship_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow5",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow6",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "ship_text",
+      "type": "text",
+      "x": 440,
+      "y": 928,
+      "width": 60,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Ship",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ship"
+    },
+    {
+      "id": "send_tracking",
+      "type": "rectangle",
+      "x": 390,
+      "y": 1040,
+      "width": 160,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "send_tracking_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow6",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow7",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "send_tracking_text",
+      "type": "text",
+      "x": 395,
+      "y": 1058,
+      "width": 150,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Send Tracking Email",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "send_tracking"
+    },
+    {
+      "id": "end",
+      "type": "ellipse",
+      "x": 400,
+      "y": 1180,
+      "width": 140,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#c2255c",
+      "backgroundColor": "#fcc2d7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "id": "end_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow7",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_release_to_end",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "end_text",
+      "type": "text",
+      "x": 445,
+      "y": 1198,
+      "width": 50,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#c2255c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "End",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end"
+    },
+    {
+      "id": "release_reservation",
+      "type": "rectangle",
+      "x": 80,
+      "y": 650,
+      "width": 180,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "release_reservation_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_payment_fail",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_release_to_end",
+          "type": "arrow"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "id": "release_reservation_text",
+      "type": "text",
+      "x": 90,
+      "y": 668,
+      "width": 160,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Release Reservation",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "release_reservation"
+    },
+    {
+      "id": "arrow1",
+      "type": "arrow",
+      "x": 470,
+      "y": 120,
+      "width": 0,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "start",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "receive_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow2",
+      "type": "arrow",
+      "x": 470,
+      "y": 250,
+      "width": 0,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "receive_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "check_inventory",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_yes",
+      "type": "arrow",
+      "x": 470,
+      "y": 440,
+      "width": 0,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "id": "yes_label",
+          "type": "text"
+        }
+      ],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "check_inventory",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "reserve_items",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "yes_label",
+      "type": "text",
+      "x": 478,
+      "y": 467,
+      "width": 30,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Yes",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_yes"
+    },
+    {
+      "id": "arrow_no",
+      "type": "arrow",
+      "x": 370,
+      "y": 380,
+      "width": 130,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "id": "no_label",
+          "type": "text"
+        }
+      ],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -130,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "check_inventory",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "backorder",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "no_label",
+      "type": "text",
+      "x": 290,
+      "y": 367,
+      "width": 30,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "No",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_no"
+    },
+    {
+      "id": "arrow_backorder_to_reserve",
+      "type": "arrow",
+      "x": 160,
+      "y": 410,
+      "width": 310,
+      "height": 145,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          145
+        ],
+        [
+          310,
+          145
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "backorder",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "reserve_items",
+        "focus": -0.5,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow3",
+      "type": "arrow",
+      "x": 470,
+      "y": 590,
+      "width": 0,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "reserve_items",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "process_payment",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_payment_fail",
+      "type": "arrow",
+      "x": 390,
+      "y": 685,
+      "width": 130,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "id": "fail_label",
+          "type": "text"
+        }
+      ],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -130,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "process_payment",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "release_reservation",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "fail_label",
+      "type": "text",
+      "x": 300,
+      "y": 672,
+      "width": 40,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "locked": false,
+      "text": "Fail",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_payment_fail"
+    },
+    {
+      "id": "arrow4",
+      "type": "arrow",
+      "x": 470,
+      "y": 720,
+      "width": 0,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "process_payment",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "pack_shipment",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow5",
+      "type": "arrow",
+      "x": 470,
+      "y": 850,
+      "width": 0,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "pack_shipment",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "ship",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow6",
+      "type": "arrow",
+      "x": 470,
+      "y": 980,
+      "width": 0,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "ship",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "send_tracking",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow7",
+      "type": "arrow",
+      "x": 470,
+      "y": 1110,
+      "width": 0,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "send_tracking",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_release_to_end",
+      "type": "arrow",
+      "x": 170,
+      "y": 720,
+      "width": 300,
+      "height": 495,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          495
+        ],
+        [
+          300,
+          495
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "release_reservation",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end",
+        "focus": 0.5,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    }
+  ]
+}

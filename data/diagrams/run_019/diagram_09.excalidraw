@@ -1,0 +1,1584 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "type": "ellipse",
+      "id": "start_node",
+      "x": 325,
+      "y": 30,
+      "width": 150,
+      "height": 60,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "start_label"
+        },
+        {
+          "id": "arrow_start_submit",
+          "type": "arrow"
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "type": "text",
+      "id": "start_label",
+      "x": 325,
+      "y": 30,
+      "width": 150,
+      "height": 60,
+      "text": "Start",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "start_node",
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 2
+    },
+    {
+      "type": "rectangle",
+      "id": "submit_form",
+      "x": 300,
+      "y": 150,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "submit_form_label"
+        },
+        {
+          "id": "arrow_start_submit",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_submit_validate",
+          "type": "arrow"
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "type": "text",
+      "id": "submit_form_label",
+      "x": 300,
+      "y": 150,
+      "width": 200,
+      "height": 60,
+      "text": "Submit\nRegistration Form",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "submit_form",
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 4
+    },
+    {
+      "type": "diamond",
+      "id": "validate_email",
+      "x": 300,
+      "y": 280,
+      "width": 200,
+      "height": 120,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "validate_email_label"
+        },
+        {
+          "id": "arrow_submit_validate",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_validate_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_validate_no",
+          "type": "arrow"
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "type": "text",
+      "id": "validate_email_label",
+      "x": 300,
+      "y": 280,
+      "width": 200,
+      "height": 120,
+      "text": "Valid Email\nFormat?",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "validate_email",
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 6
+    },
+    {
+      "type": "rectangle",
+      "id": "show_error",
+      "x": 25,
+      "y": 300,
+      "width": 180,
+      "height": 60,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "show_error_label"
+        },
+        {
+          "id": "arrow_validate_no",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_error_back",
+          "type": "arrow"
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "type": "text",
+      "id": "show_error_label",
+      "x": 25,
+      "y": 300,
+      "width": 180,
+      "height": 60,
+      "text": "Show Email\nFormat Error",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "show_error",
+      "strokeColor": "#6741d9",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 8
+    },
+    {
+      "type": "diamond",
+      "id": "check_user",
+      "x": 300,
+      "y": 470,
+      "width": 200,
+      "height": 120,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "check_user_label"
+        },
+        {
+          "id": "arrow_validate_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_check_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_check_no",
+          "type": "arrow"
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "type": "text",
+      "id": "check_user_label",
+      "x": 300,
+      "y": 470,
+      "width": 200,
+      "height": 120,
+      "text": "User Already\nExists?",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "check_user",
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 10
+    },
+    {
+      "type": "rectangle",
+      "id": "prompt_login",
+      "x": 25,
+      "y": 490,
+      "width": 180,
+      "height": 60,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "prompt_login_label"
+        },
+        {
+          "id": "arrow_check_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_login_end",
+          "type": "arrow"
+        }
+      ],
+      "seed": 11
+    },
+    {
+      "type": "text",
+      "id": "prompt_login_label",
+      "x": 25,
+      "y": 490,
+      "width": 180,
+      "height": 60,
+      "text": "Prompt User\nto Login",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "prompt_login",
+      "strokeColor": "#6741d9",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 12
+    },
+    {
+      "type": "rectangle",
+      "id": "hash_password",
+      "x": 300,
+      "y": 660,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "hash_password_label"
+        },
+        {
+          "id": "arrow_check_no",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_hash_create",
+          "type": "arrow"
+        }
+      ],
+      "seed": 13
+    },
+    {
+      "type": "text",
+      "id": "hash_password_label",
+      "x": 300,
+      "y": 660,
+      "width": 200,
+      "height": 60,
+      "text": "Hash Password",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "hash_password",
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 14
+    },
+    {
+      "type": "rectangle",
+      "id": "create_account",
+      "x": 300,
+      "y": 790,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "create_account_label"
+        },
+        {
+          "id": "arrow_hash_create",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_create_send",
+          "type": "arrow"
+        }
+      ],
+      "seed": 15
+    },
+    {
+      "type": "text",
+      "id": "create_account_label",
+      "x": 300,
+      "y": 790,
+      "width": 200,
+      "height": 60,
+      "text": "Create Account\nin Database",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "create_account",
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 16
+    },
+    {
+      "type": "rectangle",
+      "id": "send_email",
+      "x": 300,
+      "y": 920,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "send_email_label"
+        },
+        {
+          "id": "arrow_create_send",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_send_confirm",
+          "type": "arrow"
+        }
+      ],
+      "seed": 17
+    },
+    {
+      "type": "text",
+      "id": "send_email_label",
+      "x": 300,
+      "y": 920,
+      "width": 200,
+      "height": 60,
+      "text": "Send Verification\nEmail",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "send_email",
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 18
+    },
+    {
+      "type": "diamond",
+      "id": "confirm_check",
+      "x": 300,
+      "y": 1050,
+      "width": 200,
+      "height": 120,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "confirm_check_label"
+        },
+        {
+          "id": "arrow_send_confirm",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_confirm_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_confirm_no",
+          "type": "arrow"
+        }
+      ],
+      "seed": 19
+    },
+    {
+      "type": "text",
+      "id": "confirm_check_label",
+      "x": 300,
+      "y": 1050,
+      "width": 200,
+      "height": 120,
+      "text": "Email\nConfirmed?",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "confirm_check",
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 20
+    },
+    {
+      "type": "rectangle",
+      "id": "activate_account",
+      "x": 300,
+      "y": 1240,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "activate_account_label"
+        },
+        {
+          "id": "arrow_confirm_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_activate_end",
+          "type": "arrow"
+        }
+      ],
+      "seed": 21
+    },
+    {
+      "type": "text",
+      "id": "activate_account_label",
+      "x": 300,
+      "y": 1240,
+      "width": 200,
+      "height": 60,
+      "text": "Activate Account",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "activate_account",
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 22
+    },
+    {
+      "type": "rectangle",
+      "id": "resend_email",
+      "x": 25,
+      "y": 1070,
+      "width": 180,
+      "height": 60,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "resend_email_label"
+        },
+        {
+          "id": "arrow_confirm_no",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_resend_back",
+          "type": "arrow"
+        }
+      ],
+      "seed": 23
+    },
+    {
+      "type": "text",
+      "id": "resend_email_label",
+      "x": 25,
+      "y": 1070,
+      "width": 180,
+      "height": 60,
+      "text": "Resend\nVerification Email",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "resend_email",
+      "strokeColor": "#6741d9",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 24
+    },
+    {
+      "type": "ellipse",
+      "id": "end_node",
+      "x": 325,
+      "y": 1370,
+      "width": 150,
+      "height": 60,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "end_label"
+        },
+        {
+          "id": "arrow_activate_end",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_login_end",
+          "type": "arrow"
+        }
+      ],
+      "seed": 25
+    },
+    {
+      "type": "text",
+      "id": "end_label",
+      "x": 325,
+      "y": 1370,
+      "width": 150,
+      "height": 60,
+      "text": "End",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end_node",
+      "strokeColor": "#c2255c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 26
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_start_submit",
+      "x": 400,
+      "y": 90,
+      "width": 0,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "start_node",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "submit_form",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 100
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_submit_validate",
+      "x": 400,
+      "y": 210,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "submit_form",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "validate_email",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 101
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_validate_no",
+      "x": 300,
+      "y": 340,
+      "width": 95,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -95,
+          0
+        ]
+      ],
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "validate_email",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "show_error",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 102
+    },
+    {
+      "type": "text",
+      "id": "label_no_validate",
+      "x": 230,
+      "y": 315,
+      "width": 40,
+      "height": 25,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 200
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_validate_yes",
+      "x": 400,
+      "y": 400,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "validate_email",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "check_user",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 103
+    },
+    {
+      "type": "text",
+      "id": "label_yes_validate",
+      "x": 408,
+      "y": 420,
+      "width": 40,
+      "height": 25,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 201
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_error_back",
+      "x": 115,
+      "y": 300,
+      "width": 285,
+      "height": 150,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -150
+        ],
+        [
+          285,
+          -150
+        ]
+      ],
+      "strokeColor": "#6741d9",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "show_error",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "submit_form",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 104
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_check_yes",
+      "x": 300,
+      "y": 530,
+      "width": 95,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -95,
+          0
+        ]
+      ],
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "check_user",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "prompt_login",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 105
+    },
+    {
+      "type": "text",
+      "id": "label_yes_check",
+      "x": 225,
+      "y": 505,
+      "width": 40,
+      "height": 25,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 202
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_check_no",
+      "x": 400,
+      "y": 590,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "check_user",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "hash_password",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 106
+    },
+    {
+      "type": "text",
+      "id": "label_no_check",
+      "x": 408,
+      "y": 610,
+      "width": 40,
+      "height": 25,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 203
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_login_end",
+      "x": 115,
+      "y": 550,
+      "width": 0,
+      "height": 820,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          820
+        ],
+        [
+          -60,
+          820
+        ]
+      ],
+      "strokeColor": "#6741d9",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "prompt_login",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 107
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_login_end2",
+      "x": 115,
+      "y": 550,
+      "width": 285,
+      "height": 850,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          850
+        ],
+        [
+          285,
+          850
+        ]
+      ],
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "prompt_login",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end_node",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 108
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_hash_create",
+      "x": 400,
+      "y": 720,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "hash_password",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "create_account",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 109
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_create_send",
+      "x": 400,
+      "y": 850,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "create_account",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "send_email",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 110
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_send_confirm",
+      "x": 400,
+      "y": 980,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "send_email",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "confirm_check",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 111
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_confirm_no",
+      "x": 300,
+      "y": 1110,
+      "width": 95,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -95,
+          0
+        ]
+      ],
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "confirm_check",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "resend_email",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 112
+    },
+    {
+      "type": "text",
+      "id": "label_no_confirm",
+      "x": 228,
+      "y": 1085,
+      "width": 40,
+      "height": 25,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 204
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_confirm_yes",
+      "x": 400,
+      "y": 1170,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "confirm_check",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "activate_account",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 113
+    },
+    {
+      "type": "text",
+      "id": "label_yes_confirm",
+      "x": 408,
+      "y": 1195,
+      "width": 40,
+      "height": 25,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 205
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_resend_back",
+      "x": 25,
+      "y": 1100,
+      "width": -75,
+      "height": -150,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -75,
+          0
+        ],
+        [
+          -75,
+          -150
+        ],
+        [
+          275,
+          -150
+        ]
+      ],
+      "strokeColor": "#6741d9",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "resend_email",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "send_email",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 114
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_activate_end",
+      "x": 400,
+      "y": 1300,
+      "width": 0,
+      "height": 70,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "startBinding": {
+        "elementId": "activate_account",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end_node",
+        "focus": 0,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "seed": 115
+    },
+    {
+      "type": "text",
+      "id": "title_text",
+      "x": 280,
+      "y": -20,
+      "width": 250,
+      "height": 35,
+      "text": "User Registration Flow",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "containerId": null,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "boundElements": [],
+      "seed": 300
+    }
+  ]
+}

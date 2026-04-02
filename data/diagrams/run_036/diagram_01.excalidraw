@@ -1,0 +1,802 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "start",
+      "type": "ellipse",
+      "x": 400,
+      "y": 50,
+      "width": 140,
+      "height": 70,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow1",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "text": "Receive Request"
+    },
+    {
+      "id": "process1",
+      "type": "rectangle",
+      "x": 370,
+      "y": 180,
+      "width": 200,
+      "height": 70,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow1",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow2",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "Parse Headers"
+    },
+    {
+      "id": "decision1",
+      "type": "diamond",
+      "x": 340,
+      "y": 320,
+      "width": 260,
+      "height": 140,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow2",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_no",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "Auth Valid?"
+    },
+    {
+      "id": "process_yes",
+      "type": "rectangle",
+      "x": 370,
+      "y": 540,
+      "width": 200,
+      "height": 70,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow_yes",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow5",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "Parse Request Body"
+    },
+    {
+      "id": "process_no",
+      "type": "rectangle",
+      "x": 700,
+      "y": 350,
+      "width": 200,
+      "height": 70,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow_no",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow4",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "Return 401 Unauthorized"
+    },
+    {
+      "id": "end_failure1",
+      "type": "ellipse",
+      "x": 720,
+      "y": 490,
+      "width": 160,
+      "height": 70,
+      "strokeColor": "#c2255c",
+      "backgroundColor": "#fcc2d7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow4",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "End (Unauthorized)"
+    },
+    {
+      "id": "decision2",
+      "type": "diamond",
+      "x": 340,
+      "y": 680,
+      "width": 260,
+      "height": 140,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow5",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_yes2",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_no2",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "Rate Limit OK?"
+    },
+    {
+      "id": "process_route",
+      "type": "rectangle",
+      "x": 370,
+      "y": 900,
+      "width": 200,
+      "height": 70,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow_yes2",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow6",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "Route to Service"
+    },
+    {
+      "id": "process_no2",
+      "type": "rectangle",
+      "x": 700,
+      "y": 710,
+      "width": 210,
+      "height": 70,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow_no2",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow7",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "Return 429 Too Many Req"
+    },
+    {
+      "id": "end_failure2",
+      "type": "ellipse",
+      "x": 720,
+      "y": 850,
+      "width": 170,
+      "height": 70,
+      "strokeColor": "#c2255c",
+      "backgroundColor": "#fcc2d7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow7",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "End (Rate Limited)"
+    },
+    {
+      "id": "end_success",
+      "type": "ellipse",
+      "x": 395,
+      "y": 1050,
+      "width": 150,
+      "height": 70,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "arrow6",
+          "type": "arrow"
+        }
+      ],
+      "locked": false,
+      "label": "Return Response"
+    },
+    {
+      "id": "arrow1",
+      "type": "arrow",
+      "x": 470,
+      "y": 120,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "startBinding": {
+        "elementId": "start",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "process1",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "arrow2",
+      "type": "arrow",
+      "x": 470,
+      "y": 250,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "startBinding": {
+        "elementId": "process1",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "decision1",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ]
+    },
+    {
+      "id": "arrow_yes",
+      "type": "arrow",
+      "x": 470,
+      "y": 460,
+      "width": 0,
+      "height": 80,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "label_yes",
+          "type": "text"
+        }
+      ],
+      "locked": false,
+      "startBinding": {
+        "elementId": "decision1",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "process_yes",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "label_yes",
+      "type": "text",
+      "x": 480,
+      "y": 490,
+      "width": 30,
+      "height": 20,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_yes"
+    },
+    {
+      "id": "arrow_no",
+      "type": "arrow",
+      "x": 600,
+      "y": 390,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "label_no",
+          "type": "text"
+        }
+      ],
+      "locked": false,
+      "startBinding": {
+        "elementId": "decision1",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "process_no",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label_no",
+      "type": "text",
+      "x": 635,
+      "y": 375,
+      "width": 25,
+      "height": 20,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_no"
+    },
+    {
+      "id": "arrow4",
+      "type": "arrow",
+      "x": 800,
+      "y": 420,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "startBinding": {
+        "elementId": "process_no",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "end_failure1",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ]
+    },
+    {
+      "id": "arrow5",
+      "type": "arrow",
+      "x": 470,
+      "y": 610,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "startBinding": {
+        "elementId": "process_yes",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "decision2",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ]
+    },
+    {
+      "id": "arrow_yes2",
+      "type": "arrow",
+      "x": 470,
+      "y": 820,
+      "width": 0,
+      "height": 80,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "label_yes2",
+          "type": "text"
+        }
+      ],
+      "locked": false,
+      "startBinding": {
+        "elementId": "decision2",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "process_route",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "label_yes2",
+      "type": "text",
+      "x": 480,
+      "y": 850,
+      "width": 30,
+      "height": 20,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_yes2"
+    },
+    {
+      "id": "arrow_no2",
+      "type": "arrow",
+      "x": 600,
+      "y": 750,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [
+        {
+          "id": "label_no2",
+          "type": "text"
+        }
+      ],
+      "locked": false,
+      "startBinding": {
+        "elementId": "decision2",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "process_no2",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "label_no2",
+      "type": "text",
+      "x": 635,
+      "y": 735,
+      "width": 25,
+      "height": 20,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_no2"
+    },
+    {
+      "id": "arrow7",
+      "type": "arrow",
+      "x": 805,
+      "y": 780,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "startBinding": {
+        "elementId": "process_no2",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "end_failure2",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ]
+    },
+    {
+      "id": "arrow6",
+      "type": "arrow",
+      "x": 470,
+      "y": 970,
+      "width": 0,
+      "height": 80,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "angle": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "boundElements": [],
+      "locked": false,
+      "startBinding": {
+        "elementId": "process_route",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "end_success",
+        "focus": 0,
+        "gap": 5
+      },
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          80
+        ]
+      ]
+    }
+  ]
+}

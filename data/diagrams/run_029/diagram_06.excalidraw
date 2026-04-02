@@ -1,0 +1,1160 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "start",
+      "type": "ellipse",
+      "x": 340,
+      "y": 30,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "start_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_start_receive",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "start_label",
+      "type": "text",
+      "x": 380,
+      "y": 48,
+      "width": 80,
+      "height": 30,
+      "text": "Start",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "start",
+      "backgroundColor": "transparent",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "receive_order",
+      "type": "rectangle",
+      "x": 320,
+      "y": 160,
+      "width": 200,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "receive_order_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_start_receive",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_receive_check",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "receive_order_label",
+      "type": "text",
+      "x": 355,
+      "y": 178,
+      "width": 130,
+      "height": 30,
+      "text": "Receive Order",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "receive_order",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "check_inventory",
+      "type": "diamond",
+      "x": 310,
+      "y": 300,
+      "width": 220,
+      "height": 140,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "check_inventory_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_receive_check",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_check_yes_reserve",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_check_no_backorder",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "check_inventory_label",
+      "type": "text",
+      "x": 365,
+      "y": 353,
+      "width": 110,
+      "height": 30,
+      "text": "In Stock?",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "check_inventory",
+      "backgroundColor": "transparent",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "backorder",
+      "type": "rectangle",
+      "x": 30,
+      "y": 330,
+      "width": 190,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "backorder_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_check_no_backorder",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_backorder_end1",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "backorder_label",
+      "type": "text",
+      "x": 55,
+      "y": 348,
+      "width": 140,
+      "height": 30,
+      "text": "Backorder Items",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "backorder",
+      "backgroundColor": "transparent",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "end_backorder",
+      "type": "ellipse",
+      "x": 55,
+      "y": 470,
+      "width": 140,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "end_backorder_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_backorder_end1",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "end_backorder_label",
+      "type": "text",
+      "x": 90,
+      "y": 488,
+      "width": 70,
+      "height": 30,
+      "text": "End",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end_backorder",
+      "backgroundColor": "transparent",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "reserve_items",
+      "type": "rectangle",
+      "x": 320,
+      "y": 510,
+      "width": 200,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "reserve_items_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_check_yes_reserve",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_reserve_payment",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "reserve_items_label",
+      "type": "text",
+      "x": 355,
+      "y": 528,
+      "width": 130,
+      "height": 30,
+      "text": "Reserve Items",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "reserve_items",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "process_payment",
+      "type": "rectangle",
+      "x": 320,
+      "y": 650,
+      "width": 200,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "process_payment_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_reserve_payment",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_payment_decision",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "process_payment_label",
+      "type": "text",
+      "x": 340,
+      "y": 668,
+      "width": 160,
+      "height": 30,
+      "text": "Process Payment",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "process_payment",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "payment_decision",
+      "type": "diamond",
+      "x": 310,
+      "y": 790,
+      "width": 220,
+      "height": 140,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "payment_decision_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_payment_decision",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_pay_yes_pack",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_pay_no_release",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "payment_decision_label",
+      "type": "text",
+      "x": 350,
+      "y": 843,
+      "width": 140,
+      "height": 30,
+      "text": "Payment OK?",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "payment_decision",
+      "backgroundColor": "transparent",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "release_reservation",
+      "type": "rectangle",
+      "x": 630,
+      "y": 825,
+      "width": 200,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "release_reservation_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_pay_no_release",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_release_end2",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "release_reservation_label",
+      "type": "text",
+      "x": 640,
+      "y": 843,
+      "width": 180,
+      "height": 30,
+      "text": "Release Reservation",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "release_reservation",
+      "backgroundColor": "transparent",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "end_payment_fail",
+      "type": "ellipse",
+      "x": 665,
+      "y": 960,
+      "width": 140,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "end_payment_fail_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_release_end2",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "end_payment_fail_label",
+      "type": "text",
+      "x": 700,
+      "y": 978,
+      "width": 70,
+      "height": 30,
+      "text": "End",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end_payment_fail",
+      "backgroundColor": "transparent",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "pack_shipment",
+      "type": "rectangle",
+      "x": 320,
+      "y": 1000,
+      "width": 200,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "pack_shipment_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_pay_yes_pack",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_pack_ship",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "pack_shipment_label",
+      "type": "text",
+      "x": 350,
+      "y": 1018,
+      "width": 140,
+      "height": 30,
+      "text": "Pack Shipment",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pack_shipment",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "ship_order",
+      "type": "rectangle",
+      "x": 320,
+      "y": 1140,
+      "width": 200,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "ship_order_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_pack_ship",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_ship_email",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "ship_order_label",
+      "type": "text",
+      "x": 365,
+      "y": 1158,
+      "width": 110,
+      "height": 30,
+      "text": "Ship Order",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ship_order",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "send_tracking",
+      "type": "rectangle",
+      "x": 320,
+      "y": 1280,
+      "width": 200,
+      "height": 70,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "send_tracking_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_ship_email",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_email_end",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "send_tracking_label",
+      "type": "text",
+      "x": 330,
+      "y": 1298,
+      "width": 180,
+      "height": 30,
+      "text": "Send Tracking Email",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "send_tracking",
+      "backgroundColor": "transparent",
+      "strokeColor": "#6741d9",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "end_success",
+      "type": "ellipse",
+      "x": 350,
+      "y": 1420,
+      "width": 140,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "end_success_label",
+          "type": "text"
+        },
+        {
+          "id": "arrow_email_end",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "end_success_label",
+      "type": "text",
+      "x": 385,
+      "y": 1438,
+      "width": 70,
+      "height": 30,
+      "text": "End",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end_success",
+      "backgroundColor": "transparent",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_start_receive",
+      "type": "arrow",
+      "x": 420,
+      "y": 102,
+      "width": 0,
+      "height": 56,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          56
+        ]
+      ],
+      "startBinding": {
+        "elementId": "start",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "receive_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_receive_check",
+      "type": "arrow",
+      "x": 420,
+      "y": 232,
+      "width": 0,
+      "height": 68,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          68
+        ]
+      ],
+      "startBinding": {
+        "elementId": "receive_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "check_inventory",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_check_yes_reserve",
+      "type": "arrow",
+      "x": 420,
+      "y": 442,
+      "width": 0,
+      "height": 66,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          66
+        ]
+      ],
+      "startBinding": {
+        "elementId": "check_inventory",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "reserve_items",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [
+        {
+          "id": "arrow_check_yes_label",
+          "type": "text"
+        }
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_check_yes_label",
+      "type": "text",
+      "x": 430,
+      "y": 462,
+      "width": 30,
+      "height": 25,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_check_yes_reserve",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_check_no_backorder",
+      "type": "arrow",
+      "x": 310,
+      "y": 370,
+      "width": 88,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -88,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "check_inventory",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "backorder",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [
+        {
+          "id": "arrow_check_no_label",
+          "type": "text"
+        }
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_check_no_label",
+      "type": "text",
+      "x": 240,
+      "y": 345,
+      "width": 25,
+      "height": 25,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_check_no_backorder",
+      "backgroundColor": "transparent",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_backorder_end1",
+      "type": "arrow",
+      "x": 125,
+      "y": 402,
+      "width": 0,
+      "height": 66,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          66
+        ]
+      ],
+      "startBinding": {
+        "elementId": "backorder",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end_backorder",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_reserve_payment",
+      "type": "arrow",
+      "x": 420,
+      "y": 582,
+      "width": 0,
+      "height": 66,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          66
+        ]
+      ],
+      "startBinding": {
+        "elementId": "reserve_items",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "process_payment",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_payment_decision",
+      "type": "arrow",
+      "x": 420,
+      "y": 722,
+      "width": 0,
+      "height": 68,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          68
+        ]
+      ],
+      "startBinding": {
+        "elementId": "process_payment",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "payment_decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_pay_yes_pack",
+      "type": "arrow",
+      "x": 420,
+      "y": 932,
+      "width": 0,
+      "height": 66,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          66
+        ]
+      ],
+      "startBinding": {
+        "elementId": "payment_decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "pack_shipment",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [
+        {
+          "id": "arrow_pay_yes_label",
+          "type": "text"
+        }
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_pay_yes_label",
+      "type": "text",
+      "x": 430,
+      "y": 952,
+      "width": 30,
+      "height": 25,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_pay_yes_pack",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_pay_no_release",
+      "type": "arrow",
+      "x": 532,
+      "y": 860,
+      "width": 96,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "payment_decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "release_reservation",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [
+        {
+          "id": "arrow_pay_no_label",
+          "type": "text"
+        }
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_pay_no_label",
+      "type": "text",
+      "x": 560,
+      "y": 835,
+      "width": 25,
+      "height": 25,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_pay_no_release",
+      "backgroundColor": "transparent",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_release_end2",
+      "type": "arrow",
+      "x": 730,
+      "y": 897,
+      "width": 0,
+      "height": 61,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          61
+        ]
+      ],
+      "startBinding": {
+        "elementId": "release_reservation",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end_payment_fail",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_pack_ship",
+      "type": "arrow",
+      "x": 420,
+      "y": 1072,
+      "width": 0,
+      "height": 66,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          66
+        ]
+      ],
+      "startBinding": {
+        "elementId": "pack_shipment",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "ship_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_ship_email",
+      "type": "arrow",
+      "x": 420,
+      "y": 1212,
+      "width": 0,
+      "height": 66,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          66
+        ]
+      ],
+      "startBinding": {
+        "elementId": "ship_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "send_tracking",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_email_end",
+      "type": "arrow",
+      "x": 420,
+      "y": 1352,
+      "width": 0,
+      "height": 66,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          66
+        ]
+      ],
+      "startBinding": {
+        "elementId": "send_tracking",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end_success",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    }
+  ]
+}

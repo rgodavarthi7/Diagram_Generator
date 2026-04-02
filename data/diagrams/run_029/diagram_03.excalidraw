@@ -1,0 +1,1160 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "start",
+      "type": "ellipse",
+      "x": 340,
+      "y": 20,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "start_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_start_receive",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "start_text",
+      "type": "text",
+      "x": 380,
+      "y": 40,
+      "width": 80,
+      "height": 30,
+      "text": "Start",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "start",
+      "backgroundColor": "transparent",
+      "strokeColor": "#1971c2",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "receive_order",
+      "type": "rectangle",
+      "x": 320,
+      "y": 140,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "receive_order_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_start_receive",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_receive_validate",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "receive_order_text",
+      "type": "text",
+      "x": 360,
+      "y": 157,
+      "width": 120,
+      "height": 26,
+      "text": "Receive Order",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "receive_order",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "validate_card",
+      "type": "rectangle",
+      "x": 320,
+      "y": 260,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "validate_card_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_receive_validate",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_validate_declined",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "validate_card_text",
+      "type": "text",
+      "x": 365,
+      "y": 277,
+      "width": 110,
+      "height": 26,
+      "text": "Validate Card",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "validate_card",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "declined_decision",
+      "type": "diamond",
+      "x": 330,
+      "y": 380,
+      "width": 180,
+      "height": 120,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "declined_decision_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_validate_declined",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_declined_yes_notify",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_declined_no_fraud",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "declined_decision_text",
+      "type": "text",
+      "x": 380,
+      "y": 427,
+      "width": 80,
+      "height": 26,
+      "text": "Declined?",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "declined_decision",
+      "backgroundColor": "transparent",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "notify_customer",
+      "type": "rectangle",
+      "x": 60,
+      "y": 400,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "notify_customer_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_declined_yes_notify",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_notify_end1",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "notify_customer_text",
+      "type": "text",
+      "x": 95,
+      "y": 417,
+      "width": 130,
+      "height": 26,
+      "text": "Notify Customer",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "notify_customer",
+      "backgroundColor": "transparent",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "end_declined",
+      "type": "ellipse",
+      "x": 90,
+      "y": 520,
+      "width": 140,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "end_declined_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_notify_end1",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "end_declined_text",
+      "type": "text",
+      "x": 130,
+      "y": 542,
+      "width": 60,
+      "height": 26,
+      "text": "End",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end_declined",
+      "backgroundColor": "transparent",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "check_fraud",
+      "type": "rectangle",
+      "x": 320,
+      "y": 560,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "check_fraud_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_declined_no_fraud",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_fraud_suspicious",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "check_fraud_text",
+      "type": "text",
+      "x": 345,
+      "y": 577,
+      "width": 150,
+      "height": 26,
+      "text": "Check Fraud Score",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "check_fraud",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "suspicious_decision",
+      "type": "diamond",
+      "x": 330,
+      "y": 680,
+      "width": 180,
+      "height": 120,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "suspicious_decision_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_fraud_suspicious",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_suspicious_yes_flag",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_suspicious_no_charge",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "suspicious_decision_text",
+      "type": "text",
+      "x": 375,
+      "y": 727,
+      "width": 90,
+      "height": 26,
+      "text": "Suspicious?",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "suspicious_decision",
+      "backgroundColor": "transparent",
+      "strokeColor": "#f08c00",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "flag_review",
+      "type": "rectangle",
+      "x": 60,
+      "y": 700,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "flag_review_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_suspicious_yes_flag",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_flag_end2",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "flag_review_text",
+      "type": "text",
+      "x": 95,
+      "y": 717,
+      "width": 130,
+      "height": 26,
+      "text": "Flag for Review",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "flag_review",
+      "backgroundColor": "transparent",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "end_flagged",
+      "type": "ellipse",
+      "x": 90,
+      "y": 820,
+      "width": 140,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "end_flagged_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_flag_end2",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "end_flagged_text",
+      "type": "text",
+      "x": 130,
+      "y": 842,
+      "width": 60,
+      "height": 26,
+      "text": "End",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end_flagged",
+      "backgroundColor": "transparent",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "charge_card",
+      "type": "rectangle",
+      "x": 320,
+      "y": 860,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "charge_card_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_suspicious_no_charge",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_charge_confirm",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "charge_card_text",
+      "type": "text",
+      "x": 370,
+      "y": 877,
+      "width": 100,
+      "height": 26,
+      "text": "Charge Card",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "charge_card",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "send_confirmation",
+      "type": "rectangle",
+      "x": 320,
+      "y": 980,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "send_confirmation_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_charge_confirm",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_confirm_fulfill",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "send_confirmation_text",
+      "type": "text",
+      "x": 340,
+      "y": 997,
+      "width": 160,
+      "height": 26,
+      "text": "Send Confirmation",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "send_confirmation",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "fulfill_order",
+      "type": "rectangle",
+      "x": 320,
+      "y": 1100,
+      "width": 200,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "fulfill_order_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_confirm_fulfill",
+          "type": "arrow"
+        },
+        {
+          "id": "arrow_fulfill_end",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "fulfill_order_text",
+      "type": "text",
+      "x": 365,
+      "y": 1117,
+      "width": 110,
+      "height": 26,
+      "text": "Fulfill Order",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "fulfill_order",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "end_main",
+      "type": "ellipse",
+      "x": 350,
+      "y": 1220,
+      "width": 140,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "roundness": null,
+      "boundElements": [
+        {
+          "id": "end_main_text",
+          "type": "text"
+        },
+        {
+          "id": "arrow_fulfill_end",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "id": "end_main_text",
+      "type": "text",
+      "x": 390,
+      "y": 1242,
+      "width": 60,
+      "height": 26,
+      "text": "End",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "end_main",
+      "backgroundColor": "transparent",
+      "strokeColor": "#c2255c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_start_receive",
+      "type": "arrow",
+      "x": 420,
+      "y": 90,
+      "width": 0,
+      "height": 50,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          50
+        ]
+      ],
+      "startBinding": {
+        "elementId": "start",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "receive_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_receive_validate",
+      "type": "arrow",
+      "x": 420,
+      "y": 200,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "receive_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "validate_card",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_validate_declined",
+      "type": "arrow",
+      "x": 420,
+      "y": 320,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "validate_card",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "declined_decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_declined_yes_notify",
+      "type": "arrow",
+      "x": 330,
+      "y": 440,
+      "width": 70,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -70,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "declined_decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "notify_customer",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [
+        {
+          "id": "arrow_declined_yes_label",
+          "type": "text"
+        }
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_declined_yes_label",
+      "type": "text",
+      "x": 280,
+      "y": 415,
+      "width": 30,
+      "height": 26,
+      "text": "Yes",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_declined_yes_notify",
+      "backgroundColor": "transparent",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_declined_no_fraud",
+      "type": "arrow",
+      "x": 420,
+      "y": 500,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "declined_decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "check_fraud",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [
+        {
+          "id": "arrow_declined_no_label",
+          "type": "text"
+        }
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_declined_no_label",
+      "type": "text",
+      "x": 430,
+      "y": 520,
+      "width": 25,
+      "height": 26,
+      "text": "No",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_declined_no_fraud",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_notify_end1",
+      "type": "arrow",
+      "x": 160,
+      "y": 460,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "notify_customer",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end_declined",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_fraud_suspicious",
+      "type": "arrow",
+      "x": 420,
+      "y": 620,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "check_fraud",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "suspicious_decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_suspicious_yes_flag",
+      "type": "arrow",
+      "x": 330,
+      "y": 740,
+      "width": 70,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -70,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "suspicious_decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "flag_review",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [
+        {
+          "id": "arrow_suspicious_yes_label",
+          "type": "text"
+        }
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_suspicious_yes_label",
+      "type": "text",
+      "x": 280,
+      "y": 715,
+      "width": 30,
+      "height": 26,
+      "text": "Yes",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_suspicious_yes_flag",
+      "backgroundColor": "transparent",
+      "strokeColor": "#e8590c",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_suspicious_no_charge",
+      "type": "arrow",
+      "x": 420,
+      "y": 800,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "suspicious_decision",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "charge_card",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [
+        {
+          "id": "arrow_suspicious_no_label",
+          "type": "text"
+        }
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_suspicious_no_label",
+      "type": "text",
+      "x": 430,
+      "y": 820,
+      "width": 25,
+      "height": 26,
+      "text": "No",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow_suspicious_no_charge",
+      "backgroundColor": "transparent",
+      "strokeColor": "#2f9e44",
+      "fillStyle": "solid"
+    },
+    {
+      "id": "arrow_flag_end2",
+      "type": "arrow",
+      "x": 160,
+      "y": 760,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "flag_review",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end_flagged",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_charge_confirm",
+      "type": "arrow",
+      "x": 420,
+      "y": 920,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "charge_card",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "send_confirmation",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_confirm_fulfill",
+      "type": "arrow",
+      "x": 420,
+      "y": 1040,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "send_confirmation",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "fulfill_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_fulfill_end",
+      "type": "arrow",
+      "x": 420,
+      "y": 1160,
+      "width": 0,
+      "height": 60,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "fillStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ],
+      "startBinding": {
+        "elementId": "fulfill_order",
+        "focus": 0,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "end_main",
+        "focus": 0,
+        "gap": 1
+      },
+      "boundElements": [],
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    }
+  ]
+}

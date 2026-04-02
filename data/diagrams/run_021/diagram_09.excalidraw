@@ -1,0 +1,953 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": [
+    {
+      "id": "start",
+      "type": "ellipse",
+      "x": 320,
+      "y": 50,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 2
+      }
+    },
+    {
+      "id": "start_label",
+      "type": "text",
+      "x": 365,
+      "y": 72,
+      "width": 70,
+      "height": 26,
+      "text": "Start",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "start",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "submit_form",
+      "type": "rectangle",
+      "x": 310,
+      "y": 190,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "id": "submit_form_label",
+      "type": "text",
+      "x": 345,
+      "y": 212,
+      "width": 110,
+      "height": 26,
+      "text": "Submit Form",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "submit_form",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "validate_email",
+      "type": "diamond",
+      "x": 320,
+      "y": 330,
+      "width": 160,
+      "height": 110,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 2
+      }
+    },
+    {
+      "id": "validate_email_label",
+      "type": "text",
+      "x": 355,
+      "y": 367,
+      "width": 90,
+      "height": 26,
+      "text": "Valid Email?",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "containerId": "validate_email",
+      "strokeColor": "#f08c00"
+    },
+    {
+      "id": "show_error",
+      "type": "rectangle",
+      "x": 560,
+      "y": 345,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "id": "show_error_label",
+      "type": "text",
+      "x": 590,
+      "y": 367,
+      "width": 120,
+      "height": 26,
+      "text": "Show Error",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "show_error",
+      "strokeColor": "#6741d9"
+    },
+    {
+      "id": "check_user",
+      "type": "diamond",
+      "x": 320,
+      "y": 510,
+      "width": 160,
+      "height": 110,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 2
+      }
+    },
+    {
+      "id": "check_user_label",
+      "type": "text",
+      "x": 345,
+      "y": 547,
+      "width": 110,
+      "height": 26,
+      "text": "User Exists?",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "containerId": "check_user",
+      "strokeColor": "#f08c00"
+    },
+    {
+      "id": "prompt_login",
+      "type": "rectangle",
+      "x": 560,
+      "y": 525,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#d0bfff",
+      "strokeColor": "#6741d9",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "id": "prompt_login_label",
+      "type": "text",
+      "x": 590,
+      "y": 547,
+      "width": 120,
+      "height": 26,
+      "text": "Prompt Login",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "prompt_login",
+      "strokeColor": "#6741d9"
+    },
+    {
+      "id": "hash_password",
+      "type": "rectangle",
+      "x": 310,
+      "y": 690,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "id": "hash_password_label",
+      "type": "text",
+      "x": 335,
+      "y": 712,
+      "width": 130,
+      "height": 26,
+      "text": "Hash Password",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "hash_password",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "create_account",
+      "type": "rectangle",
+      "x": 310,
+      "y": 830,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "id": "create_account_label",
+      "type": "text",
+      "x": 335,
+      "y": 852,
+      "width": 130,
+      "height": 26,
+      "text": "Create Account",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "create_account",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "send_email",
+      "type": "rectangle",
+      "x": 310,
+      "y": 970,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "id": "send_email_label",
+      "type": "text",
+      "x": 323,
+      "y": 992,
+      "width": 154,
+      "height": 26,
+      "text": "Send Verification",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "send_email",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "confirm_decision",
+      "type": "diamond",
+      "x": 320,
+      "y": 1110,
+      "width": 160,
+      "height": 110,
+      "backgroundColor": "#fff3bf",
+      "strokeColor": "#f08c00",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 2
+      }
+    },
+    {
+      "id": "confirm_decision_label",
+      "type": "text",
+      "x": 355,
+      "y": 1147,
+      "width": 90,
+      "height": 26,
+      "text": "Confirmed?",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "containerId": "confirm_decision",
+      "strokeColor": "#f08c00"
+    },
+    {
+      "id": "activate",
+      "type": "rectangle",
+      "x": 310,
+      "y": 1290,
+      "width": 180,
+      "height": 70,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "id": "activate_label",
+      "type": "text",
+      "x": 330,
+      "y": 1312,
+      "width": 140,
+      "height": 26,
+      "text": "Activate Account",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "activate",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "end_success",
+      "type": "ellipse",
+      "x": 320,
+      "y": 1430,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 2
+      }
+    },
+    {
+      "id": "end_success_label",
+      "type": "text",
+      "x": 373,
+      "y": 1452,
+      "width": 54,
+      "height": 26,
+      "text": "End",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "end_success",
+      "strokeColor": "#c2255c"
+    },
+    {
+      "id": "end_error",
+      "type": "ellipse",
+      "x": 570,
+      "y": 450,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 2
+      }
+    },
+    {
+      "id": "end_error_label",
+      "type": "text",
+      "x": 623,
+      "y": 472,
+      "width": 54,
+      "height": 26,
+      "text": "End",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "end_error",
+      "strokeColor": "#c2255c"
+    },
+    {
+      "id": "end_login",
+      "type": "ellipse",
+      "x": 570,
+      "y": 630,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 2
+      }
+    },
+    {
+      "id": "end_login_label",
+      "type": "text",
+      "x": 623,
+      "y": 652,
+      "width": 54,
+      "height": 26,
+      "text": "End",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "end_login",
+      "strokeColor": "#c2255c"
+    },
+    {
+      "id": "end_noconfirm",
+      "type": "ellipse",
+      "x": 570,
+      "y": 1130,
+      "width": 160,
+      "height": 70,
+      "backgroundColor": "#fcc2d7",
+      "strokeColor": "#c2255c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "fillStyle": "solid",
+      "roundness": {
+        "type": 2
+      }
+    },
+    {
+      "id": "end_noconfirm_label",
+      "type": "text",
+      "x": 623,
+      "y": 1152,
+      "width": 54,
+      "height": 26,
+      "text": "End",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "containerId": "end_noconfirm",
+      "strokeColor": "#c2255c"
+    },
+    {
+      "id": "arrow_start_submit",
+      "type": "arrow",
+      "x": 400,
+      "y": 120,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "start",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "submit_form",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_submit_validate",
+      "type": "arrow",
+      "x": 400,
+      "y": 260,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "submit_form",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "validate_email",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_validate_yes",
+      "type": "arrow",
+      "x": 400,
+      "y": 440,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "validate_email",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "check_user",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_validate_yes_label",
+      "type": "text",
+      "x": 408,
+      "y": 462,
+      "width": 30,
+      "height": 26,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "containerId": "arrow_validate_yes",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "arrow_validate_no",
+      "type": "arrow",
+      "x": 480,
+      "y": 385,
+      "width": 80,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "validate_email",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "show_error",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_validate_no_label",
+      "type": "text",
+      "x": 500,
+      "y": 365,
+      "width": 26,
+      "height": 26,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "containerId": "arrow_validate_no",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "arrow_error_end",
+      "type": "arrow",
+      "x": 650,
+      "y": 415,
+      "width": 0,
+      "height": 35,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "show_error",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "end_error",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_check_no",
+      "type": "arrow",
+      "x": 400,
+      "y": 620,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "check_user",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "hash_password",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_check_no_label",
+      "type": "text",
+      "x": 408,
+      "y": 642,
+      "width": 26,
+      "height": 26,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "containerId": "arrow_check_no",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "arrow_check_yes",
+      "type": "arrow",
+      "x": 480,
+      "y": 565,
+      "width": 80,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "check_user",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "prompt_login",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_check_yes_label",
+      "type": "text",
+      "x": 500,
+      "y": 545,
+      "width": 30,
+      "height": 26,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "containerId": "arrow_check_yes",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "arrow_login_end",
+      "type": "arrow",
+      "x": 650,
+      "y": 595,
+      "width": 0,
+      "height": 35,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          35
+        ]
+      ],
+      "startBinding": {
+        "elementId": "prompt_login",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "end_login",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_hash_create",
+      "type": "arrow",
+      "x": 400,
+      "y": 760,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "hash_password",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "create_account",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_create_send",
+      "type": "arrow",
+      "x": 400,
+      "y": 900,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "create_account",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "send_email",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_send_confirm",
+      "type": "arrow",
+      "x": 400,
+      "y": 1040,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "send_email",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "confirm_decision",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_confirm_yes",
+      "type": "arrow",
+      "x": 400,
+      "y": 1220,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "confirm_decision",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "activate",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_confirm_yes_label",
+      "type": "text",
+      "x": 408,
+      "y": 1242,
+      "width": 30,
+      "height": 26,
+      "text": "Yes",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "containerId": "arrow_confirm_yes",
+      "strokeColor": "#2f9e44"
+    },
+    {
+      "id": "arrow_confirm_no",
+      "type": "arrow",
+      "x": 480,
+      "y": 1165,
+      "width": 90,
+      "height": 0,
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          90,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "confirm_decision",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "end_noconfirm",
+        "focus": 0,
+        "gap": 5
+      }
+    },
+    {
+      "id": "arrow_confirm_no_label",
+      "type": "text",
+      "x": 505,
+      "y": 1145,
+      "width": 26,
+      "height": 26,
+      "text": "No",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "containerId": "arrow_confirm_no",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "arrow_activate_end",
+      "type": "arrow",
+      "x": 400,
+      "y": 1360,
+      "width": 0,
+      "height": 70,
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "startBinding": {
+        "elementId": "activate",
+        "focus": 0,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "end_success",
+        "focus": 0,
+        "gap": 5
+      }
+    }
+  ]
+}
